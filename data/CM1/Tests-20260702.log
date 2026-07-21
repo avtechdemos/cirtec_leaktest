@@ -1,0 +1,1409 @@
+152064, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:30:24,   7.9666, psig,   7.9512, psig,   0.0095, psig, Pass,  
+152065, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:30:54,   6.8339, psig,         , psig,         , psig, Abort, Fill Low
+152066, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:31:18,   7.9642, psig,   7.9493, psig,   0.0094, psig, Pass,  
+152067, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:32:02,   7.9649, psig,   7.9499, psig,   0.0097, psig, Pass,  
+152068, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:32:45,   7.9644, psig,   7.9496, psig,   0.0094, psig, Pass,  
+152069, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:33:23,   7.9645, psig,   7.9493, psig,   0.0097, psig, Pass,  
+152070, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:33:53,   7.9644, psig,   7.9491, psig,   0.0098, psig, Pass,  
+152071, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:34:28,   7.9645, psig,   7.9492, psig,   0.0098, psig, Pass,  
+152072, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:34:58,   7.9643, psig,   7.9492, psig,   0.0098, psig, Pass,  
+152073, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:35:30,   7.9644, psig,   7.9493, psig,   0.0097, psig, Pass,  
+152074, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:36:01,   7.9645, psig,   7.9503, psig,   0.0093, psig, Pass,  
+152075, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:36:29,   5.8665, psig,         , psig,         , psig, Abort, Fill Low
+152076, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:36:48,   7.9630, psig,   7.9489, psig,   0.0091, psig, Pass,  
+152077, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:37:23,   7.9646, psig,   7.9486, psig,   0.0101, psig, Pass,  
+152078, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:37:53,   7.9646, psig,   7.9500, psig,   0.0093, psig, Pass,  
+152079, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:38:24,   7.9646, psig,   7.9503, psig,   0.0093, psig, Pass,  
+152080, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:39:02,   7.9643, psig,   7.9499, psig,   0.0094, psig, Pass,  
+152081, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:39:39,   7.9642, psig,   7.9492, psig,   0.0098, psig, Pass,  
+152082, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:40:14,   7.9644, psig,   7.9491, psig,   0.0097, psig, Pass,  
+152083, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:40:57,   7.9643, psig,   7.9501, psig,   0.0093, psig, Pass,  
+152084, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:41:27,   7.9642, psig,   7.9496, psig,   0.0095, psig, Pass,  
+152085, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:41:57,   7.9643, psig,   7.9499, psig,   0.0095, psig, Pass,  
+152086, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:42:29,   7.9645, psig,   7.9500, psig,   0.0093, psig, Pass,  
+152087, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:43:04,   7.9646, psig,   7.9498, psig,   0.0095, psig, Pass,  
+152088, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:43:35,   7.9645, psig,   7.9495, psig,   0.0097, psig, Pass,  
+152089, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:44:08,   7.9648, psig,   7.9503, psig,   0.0094, psig, Pass,  
+152090, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:44:38,   6.0442, psig,         , psig,         , psig, Abort, Fill Low
+152091, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:44:54,   7.9638, psig,   7.9490, psig,   0.0093, psig, Pass,  
+152092, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:45:40,   7.9654, psig,   7.9499, psig,   0.0100, psig, Pass,  
+152093, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:46:09,   7.9651, psig,   7.9507, psig,   0.0096, psig, Pass,  
+152094, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:46:42,   7.9652, psig,   7.9501, psig,   0.0096, psig, Pass,  
+152095, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:47:17,   7.9652, psig,   7.9505, psig,   0.0093, psig, Pass,  
+152096, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:47:52,   7.9651, psig,   7.9503, psig,   0.0094, psig, Pass,  
+152097, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:48:22,   7.9650, psig,   7.9499, psig,   0.0098, psig, Pass,  
+152098, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:49:00,   7.9648, psig,   7.9498, psig,   0.0095, psig, Pass,  
+152099, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:49:29,   7.9648, psig,   7.9505, psig,   0.0094, psig, Pass,  
+152100, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:49:59,   7.9649, psig,   7.9507, psig,   0.0092, psig, Pass,  
+152101, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:50:31,   7.9651, psig,   7.9501, psig,   0.0098, psig, Pass,  
+152102, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:50:57,   7.9649, psig,   7.9501, psig,   0.0096, psig, Pass,  
+152103, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:51:25,   7.9648, psig,   7.9498, psig,   0.0097, psig, Pass,  
+152104, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:51:57,   7.9649, psig,   7.9502, psig,   0.0095, psig, Pass,  
+152105, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:52:24,   7.9651, psig,   7.9503, psig,   0.0096, psig, Pass,  
+152106, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:53:00,   7.9651, psig,   7.9509, psig,   0.0094, psig, Pass,  
+152107, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:53:35,   7.9649, psig,   7.9509, psig,   0.0090, psig, Pass,  
+152108, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:54:08,   7.9650, psig,   7.9504, psig,   0.0094, psig, Pass,  
+152109, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:54:43,   7.9652, psig,   7.9503, psig,   0.0099, psig, Pass,  
+152110, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:55:18,   7.9651, psig,   7.9502, psig,   0.0097, psig, Pass,  
+152111, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:55:54,   7.9650, psig,   7.9496, psig,   0.0100, psig, Pass,  
+152112, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:56:27,   7.9653, psig,   7.9509, psig,   0.0095, psig, Pass,  
+152113, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:56:58,   7.9653, psig,   7.9506, psig,   0.0095, psig, Pass,  
+152114, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:57:31,   7.9580, psig,   7.4251, psig,   0.0000, psig, Fail, Gross
+152115, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:57:59,   7.9655, psig,   7.9507, psig,   0.0096, psig, Pass,  
+152116, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 00:58:29,   7.9652, psig,   7.9509, psig,   0.0095, psig, Pass,  
+152117, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:20:22,   7.9665, psig,   7.9517, psig,   0.0096, psig, Pass,  
+152118, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:21:19,   7.9661, psig,   7.9507, psig,   0.0098, psig, Pass,  
+152119, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:21:53,   7.9652, psig,   7.9506, psig,   0.0097, psig, Pass,  
+152120, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:22:27,   7.9651, psig,   7.9508, psig,   0.0095, psig, Pass,  
+152121, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:23:03,   7.9652, psig,   7.9500, psig,   0.0101, psig, Pass,  
+152122, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:23:29,   7.9646, psig,   7.9505, psig,   0.0095, psig, Pass,  
+152123, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:24:04,   7.9654, psig,   7.9505, psig,   0.0097, psig, Pass,  
+152124, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:24:35,   7.9649, psig,   7.9496, psig,   0.0101, psig, Pass,  
+152125, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:25:11,   7.9652, psig,   7.9512, psig,   0.0095, psig, Pass,  
+152126, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:25:39,   7.9648, psig,   7.9500, psig,   0.0098, psig, Pass,  
+152127, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:26:17,   7.9652, psig,   7.9504, psig,   0.0097, psig, Pass,  
+152128, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:26:56,   7.9649, psig,   7.9502, psig,   0.0097, psig, Pass,  
+152129, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:27:31,   7.9648, psig,   7.9500, psig,   0.0097, psig, Pass,  
+152130, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:28:02,   7.9649, psig,   7.9505, psig,   0.0095, psig, Pass,  
+152131, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:28:37,   7.9649, psig,   7.9502, psig,   0.0097, psig, Pass,  
+152132, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:29:00,   4.7252, psig,         , psig,         , psig, Abort, Fill Low
+152133, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:29:17,   7.9630, psig,   7.9484, psig,   0.0093, psig, Pass,  
+152134, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:29:52,   7.9651, psig,   7.9507, psig,   0.0094, psig, Pass,  
+152135, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:30:21,   7.9653, psig,   7.9506, psig,   0.0094, psig, Pass,  
+152136, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:30:51,   7.9656, psig,   7.9507, psig,   0.0096, psig, Pass,  
+152137, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:31:20,   7.9654, psig,   7.9504, psig,   0.0097, psig, Pass,  
+152138, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:32:03,   7.9655, psig,   7.9507, psig,   0.0096, psig, Pass,  
+152139, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:32:34,   7.9658, psig,   7.9510, psig,   0.0095, psig, Pass,  
+152140, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:33:06,   7.9653, psig,   7.9506, psig,   0.0097, psig, Pass,  
+152141, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:33:39,   7.9655, psig,   7.9511, psig,   0.0098, psig, Pass,  
+152142, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:34:15,   4.9069, psig,         , psig,         , psig, Abort, Fill Low
+152143, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:34:39,   7.9630, psig,   7.9482, psig,   0.0095, psig, Pass,  
+152144, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:35:10,   7.3184, psig,         , psig,         , psig, Abort, Fill Low
+152145, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:35:21,   7.9661, psig,   7.9518, psig,   0.0091, psig, Pass,  
+152146, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:35:51,   7.9666, psig,   7.9516, psig,   0.0097, psig, Pass,  
+152147, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:36:20,   7.9664, psig,   7.9518, psig,   0.0093, psig, Pass,  
+152148, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:36:58,   7.9662, psig,   7.9516, psig,   0.0096, psig, Pass,  
+152149, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:37:29,   7.9661, psig,   7.9509, psig,   0.0098, psig, Pass,  
+152150, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:38:00,   7.9660, psig,   7.9513, psig,   0.0095, psig, Pass,  
+152151, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:38:32,   7.9662, psig,   7.9514, psig,   0.0093, psig, Pass,  
+152152, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:39:02,   7.9656, psig,   7.9512, psig,   0.0094, psig, Pass,  
+152153, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:39:39,   7.9657, psig,   7.9510, psig,   0.0092, psig, Pass,  
+152154, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:40:13,   5.2781, psig,         , psig,         , psig, Abort, Fill Low
+152155, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:40:22,   7.9634, psig,   7.9494, psig,   0.0089, psig, Pass,  
+152156, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:41:02,   7.9659, psig,   7.9508, psig,   0.0096, psig, Pass,  
+152157, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:41:32,   7.9661, psig,   7.9512, psig,   0.0097, psig, Pass,  
+152158, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:42:03,   7.9663, psig,   7.9516, psig,   0.0095, psig, Pass,  
+152159, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:42:34,   7.9661, psig,   7.9513, psig,   0.0095, psig, Pass,  
+152160, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:43:03,   7.9662, psig,   7.9514, psig,   0.0097, psig, Pass,  
+152161, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:43:37,   7.9660, psig,   7.9514, psig,   0.0096, psig, Pass,  
+152162, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:44:12,   7.9659, psig,   7.9511, psig,   0.0097, psig, Pass,  
+152163, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:44:41,   7.9660, psig,   7.9514, psig,   0.0097, psig, Pass,  
+152164, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:45:12,   7.9661, psig,   7.9511, psig,   0.0096, psig, Pass,  
+152165, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:45:45,   7.9662, psig,   7.9513, psig,   0.0097, psig, Pass,  
+152166, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:46:19,   7.9661, psig,   7.9510, psig,   0.0096, psig, Pass,  
+152167, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:46:48,   7.9661, psig,   7.9525, psig,   0.0094, psig, Pass,  
+152168, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:47:20,   7.9662, psig,   7.9518, psig,   0.0095, psig, Pass,  
+152169, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:48:02,   7.9660, psig,   7.9514, psig,   0.0096, psig, Pass,  
+152170, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 01:48:33,   7.9663, psig,   7.9511, psig,   0.0095, psig, Pass,  
+152171, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:06:35,   7.9672, psig,   7.9510, psig,   0.0105, psig, Pass,  
+152172, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:07:06,   7.9664, psig,   7.9515, psig,   0.0101, psig, Pass,  
+152173, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:07:34,   7.9662, psig,   7.9506, psig,   0.0102, psig, Pass,  
+152174, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:08:19,   7.9657, psig,   7.9509, psig,   0.0099, psig, Pass,  
+152175, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:08:53,   7.9659, psig,   7.9504, psig,   0.0101, psig, Pass,  
+152176, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:09:34,   7.9661, psig,   7.9514, psig,   0.0097, psig, Pass,  
+152177, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:10:03,   4.8170, psig,         , psig,         , psig, Abort, Fill Low
+152178, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:10:18,   7.9629, psig,   7.9477, psig,   0.0093, psig, Pass,  
+152179, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:10:51,   7.9651, psig,   7.9497, psig,   0.0102, psig, Pass,  
+152180, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:11:28,   7.9658, psig,   7.9503, psig,   0.0101, psig, Pass,  
+152181, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:12:00,   7.9656, psig,   7.9503, psig,   0.0100, psig, Pass,  
+152182, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:12:37,   7.9654, psig,   7.9501, psig,   0.0101, psig, Pass,  
+152183, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:13:15,   7.9657, psig,   7.9505, psig,   0.0099, psig, Pass,  
+152184, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:13:52,   7.9658, psig,   7.9501, psig,   0.0101, psig, Pass,  
+152185, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:14:21,   7.9656, psig,   7.9498, psig,   0.0101, psig, Pass,  
+152186, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:15:00,   7.9655, psig,   7.9499, psig,   0.0102, psig, Pass,  
+152187, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:15:33,   7.9658, psig,   7.9502, psig,   0.0102, psig, Pass,  
+152188, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:16:05,   7.9656, psig,   7.9501, psig,   0.0102, psig, Pass,  
+152189, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:16:37,   7.9657, psig,   7.9500, psig,   0.0101, psig, Pass,  
+152190, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:17:06,   7.9658, psig,   7.9498, psig,   0.0104, psig, Pass,  
+152191, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:17:35,   7.9657, psig,   7.9500, psig,   0.0101, psig, Pass,  
+152192, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:18:04,   7.9657, psig,   7.9504, psig,   0.0100, psig, Pass,  
+152193, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:18:35,   7.9658, psig,   7.9504, psig,   0.0101, psig, Pass,  
+152194, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:19:06,   7.9658, psig,   7.9506, psig,   0.0097, psig, Pass,  
+152195, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:19:54,   7.9660, psig,   7.9507, psig,   0.0099, psig, Pass,  
+152196, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:20:27,   7.9661, psig,   7.9507, psig,   0.0100, psig, Pass,  
+152197, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:59:22,   7.9686, psig,   7.9523, psig,   0.0104, psig, Pass,  
+152198, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 02:59:56,   7.9675, psig,   7.9519, psig,   0.0099, psig, Pass,  
+152199, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:00:28,   7.9670, psig,   7.9508, psig,   0.0103, psig, Pass,  
+152200, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:01:02,   7.9669, psig,   7.9515, psig,   0.0100, psig, Pass,  
+152201, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:01:34,   7.9667, psig,   7.9511, psig,   0.0101, psig, Pass,  
+152202, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:02:11,   7.9668, psig,   7.9513, psig,   0.0100, psig, Pass,  
+152203, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:02:42,   7.9668, psig,   7.9510, psig,   0.0101, psig, Pass,  
+152204, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:03:14,   7.9665, psig,   7.9509, psig,   0.0102, psig, Pass,  
+152205, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:03:49,   7.9667, psig,   7.9514, psig,   0.0100, psig, Pass,  
+152206, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:04:22,   7.9665, psig,   7.9512, psig,   0.0099, psig, Pass,  
+152207, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:04:53,   7.9667, psig,   7.9512, psig,   0.0100, psig, Pass,  
+152208, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:05:34,   7.9664, psig,   7.9509, psig,   0.0099, psig, Pass,  
+152209, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:06:12,   7.9664, psig,   7.9512, psig,   0.0101, psig, Pass,  
+152210, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:06:54,   7.9665, psig,   7.9510, psig,   0.0102, psig, Pass,  
+152211, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:07:27,   7.9664, psig,   7.9510, psig,   0.0098, psig, Pass,  
+152212, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:08:04,   7.9665, psig,   7.9506, psig,   0.0103, psig, Pass,  
+152213, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:08:38,   7.9664, psig,   7.9509, psig,   0.0103, psig, Pass,  
+152214, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:09:17,   7.9662, psig,   7.9515, psig,   0.0099, psig, Pass,  
+152215, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:09:49,   7.9665, psig,   7.9514, psig,   0.0100, psig, Pass,  
+152216, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:10:27,   7.9665, psig,   7.9510, psig,   0.0100, psig, Pass,  
+152217, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:10:54,   3.2289, psig,         , psig,         , psig, Abort, Fill Low
+152218, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:12:20,   7.9636, psig,   7.9475, psig,   0.0102, psig, Pass,  
+152219, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:13:01,   7.9659, psig,   7.9498, psig,   0.0102, psig, Pass,  
+152220, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:13:33,   7.9664, psig,   7.9504, psig,   0.0102, psig, Pass,  
+152221, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:14:05,   7.9666, psig,   7.9509, psig,   0.0100, psig, Pass,  
+152222, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:14:42,   7.9666, psig,   7.9509, psig,   0.0101, psig, Pass,  
+152223, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:15:16,   7.9666, psig,   7.9512, psig,   0.0100, psig, Pass,  
+152224, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:20:48,   7.9671, psig,   7.9518, psig,   0.0099, psig, Pass,  
+152225, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:21:41,   7.6323, psig,   6.5505, psig,   0.0000, psig, Fail, Gross
+152226, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:22:04,   7.9666, psig,   7.9524, psig,   0.0094, psig, Pass,  
+152227, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:22:37,   7.9667, psig,   7.9523, psig,   0.0095, psig, Pass,  
+152228, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:23:08,   7.9666, psig,   7.9508, psig,   0.0101, psig, Pass,  
+152229, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:23:40,   7.9667, psig,   7.9516, psig,   0.0098, psig, Pass,  
+152230, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:24:09,   7.9667, psig,   7.9515, psig,   0.0098, psig, Pass,  
+152231, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:24:38,   4.6415, psig,         , psig,         , psig, Abort, Fill Low
+152232, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:24:57,   7.9641, psig,   7.9496, psig,   0.0092, psig, Pass,  
+152233, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:25:36,   7.9667, psig,   7.9458, psig,   0.0129, psig, Pass,  
+152234, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:26:22,   6.4612, psig,         , psig,         , psig, Abort, Fill Low
+152235, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:26:33,   7.6317, psig,   6.5760, psig,   0.0000, psig, Fail, Gross
+152236, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:26:52,   7.9679, psig,   7.9534, psig,   0.0094, psig, Pass,  
+152237, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:27:28,   7.9683, psig,   7.9531, psig,   0.0096, psig, Pass,  
+152238, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:27:58,   7.9678, psig,   7.9525, psig,   0.0097, psig, Pass,  
+152239, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:28:25,   7.9680, psig,   7.9534, psig,   0.0093, psig, Pass,  
+152240, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:28:56,   7.9676, psig,   7.9522, psig,   0.0097, psig, Pass,  
+152241, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:29:29,   7.9677, psig,   7.9521, psig,   0.0099, psig, Pass,  
+152242, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:29:58,   7.9676, psig,   7.9526, psig,   0.0094, psig, Pass,  
+152243, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:30:31,   7.9677, psig,   7.9525, psig,   0.0098, psig, Pass,  
+152244, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:31:04,   7.9676, psig,   7.9525, psig,   0.0096, psig, Pass,  
+152245, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:31:37,   7.9676, psig,   7.9526, psig,   0.0095, psig, Pass,  
+152246, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:32:04,   7.9674, psig,   7.9525, psig,   0.0099, psig, Pass,  
+152247, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:32:40,   7.9674, psig,   7.9524, psig,   0.0098, psig, Pass,  
+152248, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:33:14,   7.9677, psig,   7.9529, psig,   0.0096, psig, Pass,  
+152249, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:33:49,   7.9673, psig,   7.9521, psig,   0.0100, psig, Pass,  
+152250, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:34:18,   7.9676, psig,   7.9529, psig,   0.0096, psig, Pass,  
+152251, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:34:45,   7.9673, psig,   7.9526, psig,   0.0096, psig, Pass,  
+152252, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:35:20,   7.9676, psig,   7.9516, psig,   0.0101, psig, Pass,  
+152253, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 03:35:50,   7.9673, psig,   7.9526, psig,   0.0093, psig, Pass,  
+152254, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:01:12,   7.9691, psig,   7.9534, psig,   0.0101, psig, Pass,  
+152255, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:01:46,   7.9686, psig,   7.9535, psig,   0.0097, psig, Pass,  
+152256, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:02:24,   7.9678, psig,   7.9527, psig,   0.0098, psig, Pass,  
+152257, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:03:00,   7.9677, psig,   7.9523, psig,   0.0099, psig, Pass,  
+152258, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:03:39,   7.9678, psig,   7.9525, psig,   0.0098, psig, Pass,  
+152259, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:04:23,   7.9674, psig,   7.9524, psig,   0.0099, psig, Pass,  
+152260, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:04:55,   7.9677, psig,   7.9525, psig,   0.0100, psig, Pass,  
+152261, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:05:29,   7.9676, psig,   7.9527, psig,   0.0099, psig, Pass,  
+152262, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:06:03,   7.9676, psig,   7.9523, psig,   0.0097, psig, Pass,  
+152263, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:06:33,   7.9678, psig,   7.9523, psig,   0.0099, psig, Pass,  
+152264, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:07:08,   7.9676, psig,   7.9529, psig,   0.0095, psig, Pass,  
+152265, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:07:36,   7.9678, psig,   7.9526, psig,   0.0097, psig, Pass,  
+152266, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:08:04,   7.9677, psig,   7.9529, psig,   0.0097, psig, Pass,  
+152267, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:08:33,   3.8883, psig,         , psig,         , psig, Abort, Fill Low
+152268, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:08:53,   7.9646, psig,   7.9493, psig,   0.0096, psig, Pass,  
+152269, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:09:22,   7.9671, psig,   7.9522, psig,   0.0095, psig, Pass,  
+152270, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:09:53,   7.9676, psig,   7.9522, psig,   0.0100, psig, Pass,  
+152271, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:10:29,   7.9677, psig,   7.9526, psig,   0.0096, psig, Pass,  
+152272, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:11:00,   7.9678, psig,   7.9527, psig,   0.0098, psig, Pass,  
+152273, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:11:31,   7.9678, psig,   7.9522, psig,   0.0101, psig, Pass,  
+152274, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:11:59,   7.9680, psig,   7.9527, psig,   0.0101, psig, Pass,  
+152275, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:12:54,   7.9680, psig,   7.9526, psig,   0.0101, psig, Pass,  
+152276, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:13:25,   5.3434, psig,         , psig,         , psig, Abort, Fill Low
+152277, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:13:33,   7.9661, psig,   7.9516, psig,   0.0090, psig, Pass,  
+152278, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:14:13,   7.9679, psig,   7.9531, psig,   0.0096, psig, Pass,  
+152279, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:14:43,   2.2873, psig,         , psig,         , psig, Abort, Fill Low
+152280, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:15:08,   4.8446, psig,         , psig,         , psig, Abort, Fill Low
+152281, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:15:52,   7.9652, psig,   7.9503, psig,   0.0094, psig, Pass,  
+152282, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:16:27,   4.3115, psig,         , psig,         , psig, Abort, Fill Low
+152283, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:17:52,   7.9654, psig,   7.9480, psig,   0.0110, psig, Pass,  
+152284, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:40:21,   2.9889, psig,         , psig,         , psig, Abort, Fill Low
+152285, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:40:52,   7.9649, psig,   7.9496, psig,   0.0097, psig, Pass,  
+152286, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:41:26,   7.9677, psig,   7.9527, psig,   0.0097, psig, Pass,  
+152287, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:41:56,   7.9682, psig,   7.9535, psig,   0.0093, psig, Pass,  
+152288, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:42:27,   7.9682, psig,   7.9533, psig,   0.0096, psig, Pass,  
+152289, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:43:03,   7.9687, psig,   7.9533, psig,   0.0098, psig, Pass,  
+152290, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:43:27,   7.9681, psig,   7.9537, psig,   0.0094, psig, Pass,  
+152291, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:43:58,   2.8860, psig,         , psig,         , psig, Abort, Fill Low
+152292, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:44:30,   7.9647, psig,   7.9496, psig,   0.0095, psig, Pass,  
+152293, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:45:03,   7.9672, psig,   7.9521, psig,   0.0096, psig, Pass,  
+152294, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:45:41,   7.9683, psig,   7.9529, psig,   0.0100, psig, Pass,  
+152295, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:46:13,   7.9679, psig,   7.9528, psig,   0.0098, psig, Pass,  
+152296, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:46:41,   7.9684, psig,   7.9538, psig,   0.0095, psig, Pass,  
+152297, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:47:09,   7.9681, psig,   7.9530, psig,   0.0098, psig, Pass,  
+152298, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:47:41,   7.9682, psig,   7.9529, psig,   0.0099, psig, Pass,  
+152299, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:48:10,   7.9684, psig,   7.9534, psig,   0.0096, psig, Pass,  
+152300, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:48:34,   5.4728, psig,         , psig,         , psig, Abort, Fill Low
+152301, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:48:43,   7.9662, psig,   7.9521, psig,   0.0088, psig, Pass,  
+152302, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:49:16,   7.9687, psig,   7.9540, psig,   0.0096, psig, Pass,  
+152303, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:49:42,   7.9686, psig,   7.9535, psig,   0.0098, psig, Pass,  
+152304, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:50:19,   7.9690, psig,   7.9541, psig,   0.0095, psig, Pass,  
+152305, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:50:48,   4.7092, psig,         , psig,         , psig, Abort, Fill Low
+152306, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:50:56,   7.9659, psig,   7.9514, psig,   0.0089, psig, Pass,  
+152307, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:51:27,   7.9684, psig,   7.9532, psig,   0.0099, psig, Pass,  
+152308, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:51:55,   7.9689, psig,   7.9537, psig,   0.0099, psig, Pass,  
+152309, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:52:23,   7.9690, psig,   7.9536, psig,   0.0100, psig, Pass,  
+152310, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:52:52,   7.9689, psig,   7.9542, psig,   0.0091, psig, Pass,  
+152311, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:53:25,   7.9689, psig,   7.9543, psig,   0.0094, psig, Pass,  
+152312, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:53:56,   7.9688, psig,   7.9535, psig,   0.0099, psig, Pass,  
+152313, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:54:32,   7.9688, psig,   7.9542, psig,   0.0096, psig, Pass,  
+152314, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:55:03,   4.4655, psig,         , psig,         , psig, Abort, Fill Low
+152315, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:55:11,   7.9655, psig,   7.9511, psig,   0.0089, psig, Pass,  
+152316, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:55:41,   7.9685, psig,   7.9539, psig,   0.0094, psig, Pass,  
+152317, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:56:07,   7.9690, psig,   7.9541, psig,   0.0098, psig, Pass,  
+152318, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:56:43,   7.9692, psig,   7.9539, psig,   0.0098, psig, Pass,  
+152319, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:57:14,   7.9688, psig,   7.9542, psig,   0.0095, psig, Pass,  
+152320, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:57:42,   7.9690, psig,   7.9543, psig,   0.0095, psig, Pass,  
+152321, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:58:15,   7.9687, psig,   7.9541, psig,   0.0095, psig, Pass,  
+152322, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:58:47,   7.9690, psig,   7.9540, psig,   0.0098, psig, Pass,  
+152323, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:59:19,   7.9687, psig,   7.9543, psig,   0.0097, psig, Pass,  
+152324, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 04:59:48,   7.9690, psig,   7.9539, psig,   0.0096, psig, Pass,  
+152325, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:00:20,   7.9687, psig,   7.9538, psig,   0.0097, psig, Pass,  
+152326, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:00:53,   7.9688, psig,   7.9539, psig,   0.0096, psig, Pass,  
+152327, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:01:25,   7.9688, psig,   7.9542, psig,   0.0094, psig, Pass,  
+152328, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:01:54,   7.9690, psig,   7.9539, psig,   0.0099, psig, Pass,  
+152329, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:02:26,   7.9690, psig,   7.9535, psig,   0.0100, psig, Pass,  
+152330, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:03:00,   7.9688, psig,   7.9535, psig,   0.0097, psig, Pass,  
+152331, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:03:33,   2.9315, psig,         , psig,         , psig, Abort, Fill Low
+152332, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:03:48,   7.9658, psig,   7.9507, psig,   0.0096, psig, Pass,  
+152333, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:05:02,   7.9684, psig,   7.9514, psig,   0.0107, psig, Pass,  
+152334, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:05:33,   7.9690, psig,   7.9540, psig,   0.0097, psig, Pass,  
+152335, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:06:05,   7.9688, psig,   7.9537, psig,   0.0096, psig, Pass,  
+152336, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:06:35,   7.9689, psig,   7.9537, psig,   0.0096, psig, Pass,  
+152337, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:07:09,   2.6200, psig,         , psig,         , psig, Abort, Fill Low
+152338, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:07:26,   7.9654, psig,   7.9506, psig,   0.0095, psig, Pass,  
+152339, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:08:10,   7.9682, psig,   7.9525, psig,   0.0100, psig, Pass,  
+152340, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:08:38,   7.9690, psig,   7.9539, psig,   0.0097, psig, Pass,  
+152341, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:09:09,   4.9708, psig,         , psig,         , psig, Abort, Fill Low
+152342, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:09:18,   7.9662, psig,   7.9515, psig,   0.0090, psig, Pass,  
+152343, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:45:09,   7.9710, psig,   7.9554, psig,   0.0101, psig, Pass,  
+152344, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:45:50,   7.9701, psig,   7.9550, psig,   0.0096, psig, Pass,  
+152345, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:46:19,   7.9694, psig,   7.9544, psig,   0.0097, psig, Pass,  
+152346, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:46:51,   7.9694, psig,   7.9550, psig,   0.0094, psig, Pass,  
+152347, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:47:24,   7.9692, psig,   7.9544, psig,   0.0098, psig, Pass,  
+152348, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:48:01,   7.9691, psig,   7.9541, psig,   0.0097, psig, Pass,  
+152349, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:48:32,   7.9693, psig,   7.9546, psig,   0.0095, psig, Pass,  
+152350, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:49:05,   7.9692, psig,   7.9546, psig,   0.0095, psig, Pass,  
+152351, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:49:39,   7.9689, psig,   7.9539, psig,   0.0096, psig, Pass,  
+152352, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:50:12,   7.9691, psig,   7.9545, psig,   0.0096, psig, Pass,  
+152353, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:50:53,   7.9690, psig,   7.9536, psig,   0.0100, psig, Pass,  
+152354, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:51:28,   7.9691, psig,   7.9539, psig,   0.0099, psig, Pass,  
+152355, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:51:59,   3.5548, psig,         , psig,         , psig, Abort, Fill Low
+152356, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:52:09,   7.9652, psig,   7.9505, psig,   0.0093, psig, Pass,  
+152357, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:52:39,   7.9683, psig,   7.9531, psig,   0.0096, psig, Pass,  
+152358, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:53:09,   3.0813, psig,         , psig,         , psig, Abort, Fill Low
+152359, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:53:22,   7.9656, psig,   7.9511, psig,   0.0091, psig, Pass,  
+152360, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:53:54,   7.9680, psig,   7.9532, psig,   0.0094, psig, Pass,  
+152361, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:54:41,   7.9686, psig,   7.9536, psig,   0.0094, psig, Pass,  
+152362, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:55:12,   7.9689, psig,   7.9542, psig,   0.0096, psig, Pass,  
+152363, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:55:43,   7.9690, psig,   7.9542, psig,   0.0095, psig, Pass,  
+152364, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:56:14,   7.9687, psig,   7.9540, psig,   0.0094, psig, Pass,  
+152365, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:56:40,   3.8622, psig,         , psig,         , psig, Abort, Fill Low
+152366, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:57:19,   7.9658, psig,   7.9509, psig,   0.0095, psig, Pass,  
+152367, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:57:52,   7.9681, psig,   7.9528, psig,   0.0099, psig, Pass,  
+152368, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:58:21,   7.9688, psig,   7.9536, psig,   0.0097, psig, Pass,  
+152369, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:58:57,   4.7786, psig,         , psig,         , psig, Abort, Fill Low
+152370, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:59:07,   7.9661, psig,   7.9513, psig,   0.0089, psig, Pass,  
+152371, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 05:59:41,   7.9686, psig,   7.9539, psig,   0.0097, psig, Pass,  
+152372, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:00:14,   7.9692, psig,   7.9539, psig,   0.0098, psig, Pass,  
+152373, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:00:44,   7.9690, psig,   7.9541, psig,   0.0098, psig, Pass,  
+152374, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:01:13,   4.9401, psig,         , psig,         , psig, Abort, Fill Low
+152375, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:01:47,   3.2580, psig,         , psig,         , psig, Abort, Fill Low
+152376, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:02:05,   7.9660, psig,   7.9508, psig,   0.0096, psig, Pass,  
+152377, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:02:41,   7.9688, psig,   7.9536, psig,   0.0098, psig, Pass,  
+152378, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:03:10,   3.8228, psig,         , psig,         , psig, Abort, Fill Low
+152379, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:03:18,   7.9663, psig,   7.9515, psig,   0.0092, psig, Pass,  
+152380, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:03:55,   7.9689, psig,   7.9536, psig,   0.0098, psig, Pass,  
+152381, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:04:24,   4.5607, psig,         , psig,         , psig, Abort, Fill Low
+152382, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:04:50,   7.9662, psig,   7.9507, psig,   0.0099, psig, Pass,  
+152383, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:05:17,   7.9690, psig,   7.9536, psig,   0.0098, psig, Pass,  
+152384, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:05:41,   3.8320, psig,         , psig,         , psig, Abort, Fill Low
+152385, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:05:57,   7.9653, psig,   7.9340, psig,   0.0091, psig, Pass,  
+152386, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:06:34,   7.9688, psig,   7.9529, psig,   0.0101, psig, Pass,  
+152387, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:07:07,   7.9691, psig,   7.9535, psig,   0.0098, psig, Pass,  
+152388, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:07:32,   4.7897, psig,         , psig,         , psig, Abort, Fill Low
+152389, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:07:41,   7.9669, psig,   7.9519, psig,   0.0092, psig, Pass,  
+152390, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:08:16,   7.9693, psig,   7.9543, psig,   0.0095, psig, Pass,  
+152391, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:08:41,   4.6599, psig,         , psig,         , psig, Abort, Fill Low
+152392, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:08:53,   7.9667, psig,   7.9512, psig,   0.0095, psig, Pass,  
+152393, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:09:21,   3.5715, psig,         , psig,         , psig, Abort, Fill Low
+152394, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:09:30,   7.9670, psig,   7.9516, psig,   0.0092, psig, Pass,  
+152395, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:10:05,   7.9695, psig,   7.9536, psig,   0.0099, psig, Pass,  
+152396, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:10:37,   7.9699, psig,   7.9543, psig,   0.0099, psig, Pass,  
+152397, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:11:09,   7.9704, psig,   7.9552, psig,   0.0096, psig, Pass,  
+152398, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:11:44,   7.9701, psig,   7.9546, psig,   0.0100, psig, Pass,  
+152399, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:12:24,   7.9701, psig,   7.9547, psig,   0.0098, psig, Pass,  
+152400, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:12:54,   7.9703, psig,   7.9548, psig,   0.0100, psig, Pass,  
+152401, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:13:25,   7.9701, psig,   7.9547, psig,   0.0096, psig, Pass,  
+152402, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:13:56,   7.9702, psig,   7.9549, psig,   0.0097, psig, Pass,  
+152403, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:21:08,   6.1671, psig,         , psig,         , psig, Abort, Fill Low
+152404, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:21:15,   7.9685, psig,   7.9544, psig,   0.0086, psig, Pass,  
+152405, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:21:42,   3.3860, psig,         , psig,         , psig, Abort, Fill Low
+152406, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:22:06,   7.9663, psig,   7.9513, psig,   0.0093, psig, Pass,  
+152407, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:22:42,   7.9651, psig,   7.9498, psig,   0.0092, psig, Pass,  
+152408, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:23:14,   7.9698, psig,   7.9548, psig,   0.0096, psig, Pass,  
+152409, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:23:47,   2.3856, psig,         , psig,         , psig, Abort, Fill Low
+152410, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:24:02,   7.9658, psig,   7.9508, psig,   0.0093, psig, Pass,  
+152411, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 06:24:34,   7.9690, psig,   7.9540, psig,   0.0095, psig, Pass,  
+152412, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:26:13,   7.9689, psig,   7.9533, psig,   0.0096, psig, Pass,  
+152413, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:26:48,   7.9679, psig,   7.9531, psig,   0.0093, psig, Pass,  
+152414, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:27:33,   7.9672, psig,   7.9524, psig,   0.0097, psig, Pass,  
+152415, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:28:01,   7.9670, psig,   7.9517, psig,   0.0096, psig, Pass,  
+152416, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:28:23,   7.9666, psig,   7.9514, psig,   0.0098, psig, Pass,  
+152417, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:28:55,   7.9668, psig,   7.9523, psig,   0.0095, psig, Pass,  
+152418, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:29:21,   7.9666, psig,   7.9521, psig,   0.0096, psig, Pass,  
+152419, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:29:43,   7.9662, psig,   7.9509, psig,   0.0099, psig, Pass,  
+152420, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:30:12,   7.9664, psig,   7.9517, psig,   0.0097, psig, Pass,  
+152421, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:30:51,   7.9660, psig,   7.9518, psig,   0.0095, psig, Pass,  
+152422, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:31:20,   7.9662, psig,   7.9517, psig,   0.0096, psig, Pass,  
+152423, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:31:48,   7.9661, psig,   7.9514, psig,   0.0097, psig, Pass,  
+152424, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:32:14,   5.4846, psig,         , psig,         , psig, Abort, Fill Low
+152425, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:32:43,   7.9629, psig,   7.9486, psig,   0.0094, psig, Pass,  
+152426, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:33:11,   7.9650, psig,   7.9510, psig,   0.0091, psig, Pass,  
+152427, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:33:41,   7.9656, psig,   7.9502, psig,   0.0099, psig, Pass,  
+152428, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:34:03,   7.9656, psig,   7.9509, psig,   0.0095, psig, Pass,  
+152429, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:34:31,   7.9655, psig,   7.9504, psig,   0.0095, psig, Pass,  
+152430, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:35:02,   7.9655, psig,   7.9509, psig,   0.0096, psig, Pass,  
+152431, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:35:29,   7.9654, psig,   7.9510, psig,   0.0094, psig, Pass,  
+152432, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:36:06,   7.9655, psig,   7.9508, psig,   0.0097, psig, Pass,  
+152433, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:36:33,   7.9658, psig,   7.9512, psig,   0.0094, psig, Pass,  
+152434, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:37:24,   7.9657, psig,   7.9503, psig,   0.0098, psig, Pass,  
+152435, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:38:24,   7.9656, psig,   7.9514, psig,   0.0093, psig, Pass,  
+152436, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:39:00,   7.9654, psig,   7.9508, psig,   0.0094, psig, Pass,  
+152437, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:40:25,   7.9656, psig,   7.9508, psig,   0.0099, psig, Pass,  
+152438, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:40:58,   7.9652, psig,   7.9502, psig,   0.0097, psig, Pass,  
+152439, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:41:39,   7.9652, psig,   7.9501, psig,   0.0099, psig, Pass,  
+152440, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:42:23,   7.9653, psig,   7.9514, psig,   0.0091, psig, Pass,  
+152441, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:43:18,   7.9654, psig,   7.9503, psig,   0.0099, psig, Pass,  
+152442, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:43:52,   7.9653, psig,   7.9504, psig,   0.0097, psig, Pass,  
+152443, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:44:34,   7.9653, psig,   7.9500, psig,   0.0099, psig, Pass,  
+152444, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:45:02,   7.9655, psig,   7.9505, psig,   0.0098, psig, Pass,  
+152445, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:45:53,   7.9654, psig,   7.9510, psig,   0.0090, psig, Pass,  
+152446, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:46:24,   7.9654, psig,   7.9493, psig,   0.0099, psig, Pass,  
+152447, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:47:05,   7.9654, psig,   7.9503, psig,   0.0101, psig, Pass,  
+152448, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:47:43,   5.8920, psig,         , psig,         , psig, Abort, Fill Low
+152449, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:48:09,   7.9643, psig,   7.9492, psig,   0.0095, psig, Pass,  
+152450, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:48:36,   7.9654, psig,   7.9503, psig,   0.0098, psig, Pass,  
+152451, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:49:14,   4.3148, psig,         , psig,         , psig, Abort, Fill Low
+152452, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:49:29,   7.9631, psig,   7.9475, psig,   0.0098, psig, Pass,  
+152453, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:49:53,   7.9653, psig,   7.9510, psig,   0.0099, psig, Pass,  
+152454, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:50:17,   7.9662, psig,   7.9509, psig,   0.0099, psig, Pass,  
+152455, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:50:44,   7.9660, psig,   7.9511, psig,   0.0098, psig, Pass,  
+152456, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:51:08,   7.9659, psig,   7.9506, psig,   0.0100, psig, Pass,  
+152457, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:51:34,   7.9663, psig,   7.9513, psig,   0.0095, psig, Pass,  
+152458, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:52:10,   4.9119, psig,         , psig,         , psig, Abort, Fill Low
+152459, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:52:39,   7.9635, psig,   7.9486, psig,   0.0095, psig, Pass,  
+152460, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:53:00,   7.9653, psig,   7.9511, psig,   0.0091, psig, Pass,  
+152461, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:53:36,   7.9662, psig,   7.9517, psig,   0.0094, psig, Pass,  
+152462, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 08:54:07,   7.9659, psig,   7.9513, psig,   0.0097, psig, Pass,  
+152463, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:00:16,   7.9668, psig,   7.9515, psig,   0.0097, psig, Pass,  
+152464, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:00:52,   7.9663, psig,   7.9511, psig,   0.0096, psig, Pass,  
+152465, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:01:26,   7.9661, psig,   7.9503, psig,   0.0102, psig, Pass,  
+152466, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:01:57,   7.9660, psig,   7.9509, psig,   0.0098, psig, Pass,  
+152467, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:02:26,   7.9660, psig,   7.9508, psig,   0.0098, psig, Pass,  
+152468, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:03:00,   7.9660, psig,   7.9514, psig,   0.0098, psig, Pass,  
+152469, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:34:18,   7.9685, psig,   7.9548, psig,   0.0089, psig, Pass,  
+152470, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:34:59,   7.9673, psig,   7.9530, psig,   0.0094, psig, Pass,  
+152471, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:35:34,   7.9668, psig,   7.9529, psig,   0.0088, psig, Pass,  
+152472, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:36:10,   7.9665, psig,   7.9535, psig,   0.0086, psig, Pass,  
+152473, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:36:43,   7.9666, psig,   7.9532, psig,   0.0085, psig, Pass,  
+152474, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:38:09,   7.9664, psig,   7.9531, psig,   0.0086, psig, Pass,  
+152475, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:38:47,   7.9663, psig,   7.9531, psig,   0.0086, psig, Pass,  
+152476, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:39:27,   7.9666, psig,   7.9530, psig,   0.0090, psig, Pass,  
+152477, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:40:04,   7.9664, psig,   7.9525, psig,   0.0092, psig, Pass,  
+152478, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:40:42,   4.6459, psig,         , psig,         , psig, Abort, Fill Low
+152479, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:41:16,   7.9633, psig,   7.9492, psig,   0.0089, psig, Pass,  
+152480, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:41:52,   7.9656, psig,   7.9522, psig,   0.0087, psig, Pass,  
+152481, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:42:30,   7.9657, psig,   7.9524, psig,   0.0086, psig, Pass,  
+152482, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:43:06,   7.9663, psig,   7.9523, psig,   0.0090, psig, Pass,  
+152483, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:43:55,   7.9663, psig,   7.9519, psig,   0.0093, psig, Pass,  
+152484, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:44:30,   7.9665, psig,   7.9523, psig,   0.0092, psig, Pass,  
+152485, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:44:54,   4.4388, psig,         , psig,         , psig, Abort, Fill Low
+152486, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:45:27,   7.9636, psig,   7.9494, psig,   0.0089, psig, Pass,  
+152487, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:46:15,   7.9658, psig,   7.9521, psig,   0.0089, psig, Pass,  
+152488, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:46:56,   7.9662, psig,   7.9525, psig,   0.0089, psig, Pass,  
+152489, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:47:23,   7.9667, psig,   7.9531, psig,   0.0089, psig, Pass,  
+152490, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:47:57,   7.9665, psig,   7.9520, psig,   0.0092, psig, Pass,  
+152491, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:48:24,   7.9665, psig,   7.9537, psig,   0.0085, psig, Pass,  
+152492, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:48:46,   7.9667, psig,   7.9530, psig,   0.0089, psig, Pass,  
+152493, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:49:19,   7.9666, psig,   7.9519, psig,   0.0093, psig, Pass,  
+152494, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:49:47,   7.9665, psig,   7.9525, psig,   0.0091, psig, Pass,  
+152495, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:50:13,   3.9830, psig,         , psig,         , psig, Abort, Fill Low
+152496, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:50:25,   7.9641, psig,   7.9496, psig,   0.0090, psig, Pass,  
+152497, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:51:00,   7.9661, psig,   7.9530, psig,   0.0086, psig, Pass,  
+152498, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:51:26,   7.9669, psig,   7.9530, psig,   0.0089, psig, Pass,  
+152499, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:52:12,   7.9669, psig,   7.9533, psig,   0.0089, psig, Pass,  
+152500, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:53:08,   7.9671, psig,   7.9531, psig,   0.0089, psig, Pass,  
+152501, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:53:37,   4.8694, psig,         , psig,         , psig, Abort, Fill Low
+152502, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:54:35,   7.9643, psig,   7.9507, psig,   0.0088, psig, Pass,  
+152503, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:55:08,   7.9663, psig,   7.9517, psig,   0.0095, psig, Pass,  
+152504, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:55:39,   7.9668, psig,   7.9532, psig,   0.0089, psig, Pass,  
+152505, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:56:27,   7.9667, psig,   7.9525, psig,   0.0090, psig, Pass,  
+152506, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:57:03,   7.9669, psig,   7.9529, psig,   0.0091, psig, Pass,  
+152507, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:57:33,   7.9665, psig,   7.9527, psig,   0.0091, psig, Pass,  
+152508, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:58:02,   7.9669, psig,   7.9529, psig,   0.0090, psig, Pass,  
+152509, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 09:58:42,   7.9667, psig,   7.9526, psig,   0.0092, psig, Pass,  
+152510, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:00:13,   7.9668, psig,   7.9521, psig,   0.0094, psig, Pass,  
+152511, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:02:20,   7.9668, psig,   7.9531, psig,   0.0089, psig, Pass,  
+152512, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:02:52,   7.9667, psig,   7.9529, psig,   0.0088, psig, Pass,  
+152513, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:03:28,   7.9664, psig,   7.9530, psig,   0.0086, psig, Pass,  
+152514, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:04:01,   5.2283, psig,         , psig,         , psig, Abort, Fill Low
+152515, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:04:19,   7.9650, psig,   7.9506, psig,   0.0090, psig, Pass,  
+152516, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:04:41,   7.9664, psig,   7.9522, psig,   0.0091, psig, Pass,  
+152517, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:05:23,   7.9669, psig,   7.9530, psig,   0.0091, psig, Pass,  
+152518, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:06:05,   7.9667, psig,   7.9535, psig,   0.0089, psig, Pass,  
+152519, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:15:19,   7.9678, psig,   7.9540, psig,   0.0091, psig, Pass,  
+152520, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:15:43,   7.9669, psig,   7.9532, psig,   0.0090, psig, Pass,  
+152521, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:16:07,   7.9664, psig,   7.9528, psig,   0.0089, psig, Pass,  
+152522, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:16:31,   7.9667, psig,   7.9528, psig,   0.0090, psig, Pass,  
+152523, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:16:54,   7.9662, psig,   7.9531, psig,   0.0086, psig, Pass,  
+152524, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:17:23,   7.9665, psig,   7.9532, psig,   0.0088, psig, Pass,  
+152525, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:18:28,   7.9667, psig,   7.9529, psig,   0.0090, psig, Pass,  
+152526, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:19:34,   7.9664, psig,   7.9528, psig,   0.0089, psig, Pass,  
+152527, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:20:02,   7.9663, psig,   7.9528, psig,   0.0088, psig, Pass,  
+152528, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:20:32,   7.9662, psig,   7.9530, psig,   0.0087, psig, Pass,  
+152529, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:21:02,   7.9664, psig,   7.9529, psig,   0.0088, psig, Pass,  
+152530, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:21:30,   7.9663, psig,   7.9531, psig,   0.0086, psig, Pass,  
+152531, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:24:32,   7.9664, psig,   7.9522, psig,   0.0092, psig, Pass,  
+152532, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:26:11,   7.9663, psig,   7.9529, psig,   0.0088, psig, Pass,  
+152533, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:26:51,   7.9662, psig,   7.9527, psig,   0.0088, psig, Pass,  
+152534, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:28:24,   7.9661, psig,   7.9520, psig,   0.0090, psig, Pass,  
+152535, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:28:47,   7.9658, psig,   7.9516, psig,   0.0092, psig, Pass,  
+152536, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:29:39,   7.9660, psig,   7.9525, psig,   0.0088, psig, Pass,  
+152537, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:31:10,   7.9663, psig,   7.9522, psig,   0.0091, psig, Pass,  
+152538, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:34:11,   7.9666, psig,   7.9527, psig,   0.0091, psig, Pass,  
+152539, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:34:58,   7.9659, psig,   7.9529, psig,   0.0087, psig, Pass,  
+152540, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:35:43,   7.9662, psig,   7.9526, psig,   0.0089, psig, Pass,  
+152541, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:36:33,   7.9658, psig,   7.9519, psig,   0.0092, psig, Pass,  
+152542, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:37:36,   7.9657, psig,   7.9520, psig,   0.0090, psig, Pass,  
+152543, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:38:32,   7.9657, psig,   7.9519, psig,   0.0094, psig, Pass,  
+152544, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:39:18,   7.9655, psig,   7.9512, psig,   0.0093, psig, Pass,  
+152545, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:40:39,   7.9653, psig,   7.9517, psig,   0.0089, psig, Pass,  
+152546, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:41:29,   7.9657, psig,   7.9516, psig,   0.0090, psig, Pass,  
+152547, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:42:07,   7.5404, psig,   6.3845, psig,   0.0000, psig, Fail, Gross
+152548, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:43:13,   7.9657, psig,   7.9527, psig,   0.0088, psig, Pass,  
+152549, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:43:39,   7.9658, psig,   7.9517, psig,   0.0093, psig, Pass,  
+152550, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:44:18,   7.9660, psig,   7.9520, psig,   0.0090, psig, Pass,  
+152551, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:45:48,   4.5324, psig,         , psig,         , psig, Abort, Fill Low
+152552, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:46:51,   7.9633, psig,   7.9500, psig,   0.0086, psig, Pass,  
+152553, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:49:44,   7.9649, psig,   7.9511, psig,   0.0089, psig, Pass,  
+152554, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:50:19,   7.9647, psig,   7.9507, psig,   0.0090, psig, Pass,  
+152555, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:50:54,   7.9648, psig,   7.9510, psig,   0.0091, psig, Pass,  
+152556, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:51:51,   7.9648, psig,   7.9506, psig,   0.0095, psig, Pass,  
+152557, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:53:06,   7.9646, psig,   7.9506, psig,   0.0092, psig, Pass,  
+152558, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:53:38,   7.9646, psig,   7.9499, psig,   0.0094, psig, Pass,  
+152559, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:54:09,   7.9642, psig,   7.9512, psig,   0.0086, psig, Pass,  
+152560, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 10:54:45,   7.9644, psig,   7.9512, psig,   0.0088, psig, Pass,  
+152561, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:05:19,   0.0892, psig,         , psig,         , psig, Abort, Fill Low
+152562, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:05:23,   0.0859, psig,         , psig,         , psig, Abort, Fill Low
+152563, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:05:26,   0.0821, psig,         , psig,         , psig, Abort, Fill Low
+152564, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:05:30,   0.0782, psig,         , psig,         , psig, Abort, Fill Low
+152565, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:05:34,   0.0739, psig,         , psig,         , psig, Abort, Fill Low
+152566, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:05:37,   0.0751, psig,         , psig,         , psig, Abort, Fill Low
+152567, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:05:41,   0.0710, psig,         , psig,         , psig, Abort, Fill Low
+152568, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:05:44,   0.0679, psig,         , psig,         , psig, Abort, Fill Low
+152569, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:05:48,   0.0637, psig,         , psig,         , psig, Abort, Fill Low
+152570, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:05:52,   0.0575, psig,         , psig,         , psig, Abort, Fill Low
+152571, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:05:55,   0.0517, psig,         , psig,         , psig, Abort, Fill Low
+152572, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:05:59,   0.0460, psig,         , psig,         , psig, Abort, Fill Low
+152573, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:02,   0.0414, psig,         , psig,         , psig, Abort, Fill Low
+152574, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:06,   0.0364, psig,         , psig,         , psig, Abort, Fill Low
+152575, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:10,   0.0314, psig,         , psig,         , psig, Abort, Fill Low
+152576, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:13,   0.0265, psig,         , psig,         , psig, Abort, Fill Low
+152577, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:17,   0.0223, psig,         , psig,         , psig, Abort, Fill Low
+152578, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:20,   0.0186, psig,         , psig,         , psig, Abort, Fill Low
+152579, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:24,   0.0153, psig,         , psig,         , psig, Abort, Fill Low
+152580, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:28,   0.0126, psig,         , psig,         , psig, Abort, Fill Low
+152581, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:31,   0.0102, psig,         , psig,         , psig, Abort, Fill Low
+152582, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:35,   0.0083, psig,         , psig,         , psig, Abort, Fill Low
+152583, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:38,   0.0066, psig,         , psig,         , psig, Abort, Fill Low
+152584, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:42,   0.0052, psig,         , psig,         , psig, Abort, Fill Low
+152585, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:46,   0.0042, psig,         , psig,         , psig, Abort, Fill Low
+152586, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:49,   0.0032, psig,         , psig,         , psig, Abort, Fill Low
+152587, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:53,   0.0025, psig,         , psig,         , psig, Abort, Fill Low
+152588, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:06:56,   0.0020, psig,         , psig,         , psig, Abort, Fill Low
+152589, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:00,   0.0016, psig,         , psig,         , psig, Abort, Fill Low
+152590, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:04,   0.0012, psig,         , psig,         , psig, Abort, Fill Low
+152591, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:07,   0.0009, psig,         , psig,         , psig, Abort, Fill Low
+152592, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:11,   0.0008, psig,         , psig,         , psig, Abort, Fill Low
+152593, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:14,   0.0007, psig,         , psig,         , psig, Abort, Fill Low
+152594, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:18,   0.0006, psig,         , psig,         , psig, Abort, Fill Low
+152595, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:22,   0.0006, psig,         , psig,         , psig, Abort, Fill Low
+152596, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:25,   0.0004, psig,         , psig,         , psig, Abort, Fill Low
+152597, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:29,   0.0003, psig,         , psig,         , psig, Abort, Fill Low
+152598, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:32,   0.0003, psig,         , psig,         , psig, Abort, Fill Low
+152599, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:36,   0.0004, psig,         , psig,         , psig, Abort, Fill Low
+152600, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:40,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152601, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:43,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152602, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:47,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152603, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:50,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152604, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:54,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152605, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:07:58,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152606, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:01,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152607, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:05,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152608, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:08,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152609, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:12,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152610, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:16,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152611, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:19,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152612, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:23,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152613, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:26,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152614, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:30,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152615, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:34,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152616, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:37,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152617, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:41,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152618, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:44,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152619, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:48,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152620, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:52,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152621, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:55,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152622, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:08:59,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152623, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:02,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152624, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:06,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152625, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:10,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152626, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:13,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152627, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:17,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152628, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:20,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152629, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:24,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152630, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:28,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152631, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:31,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152632, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:35,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152633, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:38,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152634, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:42,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152635, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:46,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152636, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:49,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152637, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:53,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152638, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:09:56,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152639, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:00,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152640, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:04,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152641, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:07,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152642, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:11,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152643, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:14,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152644, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:18,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152645, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:22,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152646, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:25,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152647, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:29,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152648, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:32,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152649, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:36,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152650, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:40,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152651, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:43,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152652, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:47,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152653, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:50,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152654, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:54,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152655, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:10:58,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152656, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:01,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152657, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:05,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152658, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:08,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152659, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:12,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152660, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:16,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152661, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:19,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152662, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:23,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152663, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:26,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152664, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:30,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152665, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:34,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152666, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:37,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152667, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:41,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152668, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:44,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152669, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:48,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152670, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:52,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152671, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:55,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152672, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:11:59,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152673, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:02,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152674, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:06,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152675, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:10,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152676, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:13,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152677, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:17,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152678, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:20,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152679, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:24,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152680, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:28,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152681, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:31,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152682, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:35,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152683, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:38,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152684, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:42,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152685, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:46,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152686, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:49,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152687, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:53,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152688, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:12:56,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152689, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:00,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152690, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:04,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152691, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:07,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152692, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:11,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152693, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:14,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152694, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:18,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152695, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:22,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152696, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:25,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152697, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:29,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152698, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:32,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152699, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:36,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152700, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:40,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152701, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:43,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152702, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:47,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152703, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:50,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152704, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:54,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152705, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:13:58,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152706, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:01,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152707, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:05,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152708, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:08,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152709, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:12,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152710, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:16,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152711, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:19,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152712, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:23,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152713, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:26,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152714, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:30,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152715, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:34,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152716, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:37,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152717, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:41,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152718, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:44,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152719, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:48,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152720, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:52,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152721, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:55,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152722, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:14:59,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152723, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:02,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152724, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:06,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152725, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:10,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152726, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:13,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152727, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:17,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152728, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:20,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152729, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:24,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152730, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:28,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152731, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:31,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152732, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:35,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152733, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:38,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152734, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:42,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152735, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:46,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152736, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:49,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152737, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:53,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152738, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:15:56,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152739, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:00,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152740, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:04,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152741, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:07,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152742, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:11,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152743, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:14,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152744, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:18,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152745, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:22,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152746, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:25,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152747, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:29,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152748, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:32,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152749, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:36,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152750, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:40,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152751, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:43,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152752, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:47,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152753, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:50,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152754, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:54,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152755, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:16:58,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152756, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:01,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152757, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:05,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152758, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:08,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152759, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:12,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152760, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:16,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152761, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:19,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152762, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:23,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152763, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:26,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152764, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:30,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152765, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:34,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152766, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:37,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152767, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:41,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152768, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:44,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152769, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:48,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152770, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:52,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152771, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:55,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152772, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:17:59,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152773, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:02,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152774, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:06,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152775, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:10,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152776, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:13,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152777, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:17,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152778, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:20,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152779, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:24,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152780, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:28,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152781, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:31,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152782, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:35,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152783, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:38,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152784, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:42,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152785, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:46,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152786, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:49,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152787, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:53,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152788, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:18:56,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152789, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:00,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152790, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:04,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152791, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:07,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152792, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:11,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152793, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:14,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152794, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:18,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152795, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:22,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152796, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:25,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152797, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:29,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152798, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:32,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152799, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:36,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152800, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:40,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152801, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:43,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152802, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:47,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152803, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:50,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152804, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:54,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152805, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:19:58,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152806, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:01,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152807, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:05,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152808, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:08,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152809, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:12,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152810, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:16,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152811, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:19,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152812, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:23,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152813, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:26,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152814, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:30,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152815, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:34,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152816, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:37,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152817, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:41,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152818, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:44,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152819, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:48,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152820, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:52,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152821, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:55,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152822, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:20:59,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152823, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:02,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152824, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:06,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152825, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:10,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152826, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:13,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152827, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:17,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152828, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:20,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152829, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:24,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152830, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:28,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152831, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:31,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152832, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:35,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152833, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:38,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152834, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:42,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152835, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:46,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152836, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:49,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152837, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:53,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152838, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:21:56,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152839, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:00,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152840, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:04,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152841, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:07,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152842, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:11,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152843, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:14,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152844, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:18,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152845, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:22,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152846, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:25,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152847, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:29,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152848, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:32,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152849, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:36,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152850, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:40,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152851, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:43,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152852, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:47,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152853, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:50,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152854, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:54,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152855, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:22:58,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152856, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:01,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152857, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:05,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152858, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:08,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152859, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:12,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152860, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:16,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152861, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:19,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152862, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:23,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152863, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:26,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152864, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:30,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152865, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:34,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152866, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:37,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152867, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:41,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152868, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:44,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152869, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:48,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152870, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:52,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152871, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:55,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152872, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:23:59,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152873, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:02,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152874, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:06,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152875, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:10,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152876, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:13,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152877, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:17,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152878, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:20,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152879, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:24,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152880, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:28,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152881, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:31,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152882, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:35,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152883, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:38,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152884, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:42,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152885, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:46,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152886, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:49,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152887, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:53,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152888, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:24:56,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152889, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:00,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152890, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:04,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152891, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:07,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152892, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:11,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152893, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:14,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152894, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:18,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152895, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:22,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152896, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:25,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152897, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:29,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152898, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:32,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152899, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:36,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152900, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:40,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152901, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:43,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152902, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:47,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152903, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:50,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152904, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:54,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152905, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:25:58,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152906, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:01,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152907, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:05,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152908, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:08,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152909, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:12,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152910, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:16,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152911, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:19,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152912, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:23,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152913, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:26,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152914, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:30,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152915, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:34,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152916, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:37,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152917, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:41,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152918, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:44,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152919, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:48,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152920, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:52,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152921, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:55,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152922, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:26:59,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152923, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:02,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152924, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:06,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152925, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:10,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152926, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:13,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152927, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:17,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152928, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:20,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152929, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:24,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152930, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:28,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152931, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:31,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152932, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:35,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152933, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:38,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152934, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:42,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152935, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:46,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152936, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:49,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152937, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:53,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152938, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:27:56,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152939, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:00,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152940, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:04,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152941, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:07,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152942, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:11,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152943, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:14,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152944, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:18,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152945, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:22,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152946, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:25,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152947, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:29,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152948, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:32,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152949, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:36,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152950, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:40,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152951, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:43,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152952, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:47,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152953, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:50,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152954, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:54,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152955, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:28:58,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152956, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:01,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152957, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:05,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152958, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:08,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152959, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:12,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152960, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:16,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152961, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:19,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152962, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:23,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152963, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:26,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152964, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:30,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152965, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:34,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152966, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:37,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152967, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:41,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152968, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:44,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152969, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:48,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152970, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:52,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152971, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:55,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152972, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:29:59,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152973, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:02,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152974, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:06,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152975, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:10,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152976, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:13,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152977, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:17,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152978, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:20,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152979, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:24,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152980, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:28,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152981, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:31,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152982, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:35,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152983, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:38,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152984, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:42,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152985, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:46,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152986, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:49,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152987, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:53,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152988, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:30:56,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152989, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:00,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152990, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:04,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152991, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:07,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152992, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:11,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152993, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:14,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152994, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:18,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152995, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:22,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+152996, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:25,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152997, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:29,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+152998, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:32,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+152999, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:36,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153000, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:40,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153001, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:43,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153002, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:47,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153003, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:50,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153004, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:54,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153005, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:31:58,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153006, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:01,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153007, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:05,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153008, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:08,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153009, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:12,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153010, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:16,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153011, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:19,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153012, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:23,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153013, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:26,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153014, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:30,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153015, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:34,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153016, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:37,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153017, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:41,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153018, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:44,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153019, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:48,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153020, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:52,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153021, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:55,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153022, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:32:59,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153023, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:02,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153024, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:06,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153025, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:10,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153026, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:13,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153027, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:17,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153028, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:20,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153029, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:24,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153030, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:28,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153031, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:31,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153032, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:35,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153033, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:38,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153034, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:42,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153035, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:46,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+153036, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:49,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153037, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:53,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153038, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:33:56,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153039, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:00,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153040, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:04,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153041, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:07,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153042, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:11,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153043, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:14,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153044, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:18,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153045, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:22,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153046, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:25,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153047, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:29,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153048, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:32,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153049, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:36,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153050, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:40,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153051, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:43,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153052, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:47,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153053, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:50,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153054, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:54,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153055, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:34:58,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153056, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:01,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153057, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:05,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153058, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:09,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153059, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:12,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153060, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:16,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153061, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:19,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153062, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:23,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153063, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:27,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153064, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:30,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153065, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:34,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153066, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:37,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153067, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:41,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153068, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:45,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153069, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:48,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153070, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:52,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153071, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:55,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153072, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:35:59,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153073, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:03,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153074, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:06,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153075, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:10,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153076, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:13,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153077, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:17,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153078, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:21,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153079, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:24,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153080, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:28,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153081, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:31,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153082, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:35,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153083, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:39,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153084, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:42,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153085, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:46,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153086, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:49,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153087, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:53,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153088, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:36:57,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153089, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:00,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153090, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:04,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153091, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:07,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153092, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:11,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153093, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:15,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153094, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:18,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153095, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:22,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153096, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:25,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153097, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:29,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153098, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:33,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153099, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:36,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153100, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:40,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153101, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:43,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153102, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:47,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153103, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:51,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153104, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:54,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153105, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:37:58,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153106, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:01,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153107, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:05,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153108, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:09,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153109, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:12,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+153110, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:16,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153111, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:19,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153112, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:23,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153113, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:27,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153114, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:30,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153115, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:34,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153116, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:37,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153117, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:41,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153118, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:45,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153119, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:48,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153120, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:52,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153121, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:55,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153122, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:38:59,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153123, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:03,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153124, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:06,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153125, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:10,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153126, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:13,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153127, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:17,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153128, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:21,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153129, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:24,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153130, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:28,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153131, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:31,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153132, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:35,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153133, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:39,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153134, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:42,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153135, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:46,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153136, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:49,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153137, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:53,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153138, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:39:57,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153139, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:00,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153140, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:04,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153141, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:07,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153142, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:11,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153143, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:15,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153144, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:18,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153145, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:22,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153146, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:25,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153147, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:29,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153148, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:33,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153149, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:36,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153150, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:40,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153151, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:43,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153152, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:47,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153153, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:51,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153154, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:54,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153155, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:40:58,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153156, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:01,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153157, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:05,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153158, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:09,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153159, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:12,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153160, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:16,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153161, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:19,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153162, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:23,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153163, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:27,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153164, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:30,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153165, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:34,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153166, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:37,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153167, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:41,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153168, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:45,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153169, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:48,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153170, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:52,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153171, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:55,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153172, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:41:59,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+153173, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:03,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153174, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:06,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153175, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:10,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153176, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:13,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153177, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:17,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153178, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:21,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153179, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:24,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153180, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:28,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153181, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:31,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153182, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:35,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153183, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:39,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153184, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:42,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153185, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:46,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153186, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:49,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153187, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:53,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153188, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:42:57,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153189, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:00,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153190, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:04,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153191, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:07,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153192, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:11,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153193, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:15,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153194, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:18,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153195, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:22,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153196, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:25,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153197, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:29,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153198, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:33,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153199, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:36,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153200, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:40,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153201, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:43,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153202, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:47,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153203, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:51,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153204, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:54,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153205, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:43:58,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153206, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:01,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153207, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:05,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153208, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:09,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153209, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:12,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153210, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:16,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153211, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:19,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153212, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:23,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153213, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:27,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153214, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:30,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153215, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:34,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153216, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:37,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153217, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:41,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153218, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:45,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153219, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:48,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153220, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:52,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153221, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:55,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153222, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:44:59,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153223, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:03,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153224, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:06,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153225, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:10,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153226, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:13,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153227, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:17,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153228, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:21,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153229, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:24,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153230, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:28,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153231, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:31,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153232, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:35,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153233, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:39,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153234, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:42,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153235, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:46,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153236, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:49,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153237, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:53,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153238, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:45:57,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153239, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:00,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153240, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:04,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153241, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:07,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153242, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:11,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153243, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:15,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153244, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:18,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153245, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:22,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153246, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:25,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153247, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:29,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153248, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:33,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153249, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:36,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153250, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:40,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153251, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:43,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153252, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:47,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153253, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:51,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153254, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:54,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153255, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:46:58,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153256, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:01,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153257, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:05,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153258, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:09,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153259, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:12,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153260, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:16,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153261, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:19,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153262, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:23,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153263, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:27,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153264, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:30,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153265, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:34,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153266, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:37,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153267, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:41,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153268, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:45,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153269, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:48,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153270, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:52,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153271, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:55,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153272, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:47:59,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153273, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:03,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153274, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:06,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153275, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:10,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153276, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:13,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153277, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:17,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153278, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:21,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153279, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:24,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153280, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:28,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153281, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:31,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153282, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:35,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153283, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:39,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153284, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:42,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153285, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:46,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153286, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:49,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153287, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:53,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153288, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:48:57,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153289, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:00,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153290, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:04,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153291, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:07,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153292, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:11,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153293, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:15,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153294, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:18,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153295, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:22,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153296, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:25,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153297, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:29,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153298, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:33,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153299, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:36,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153300, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:40,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153301, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:43,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153302, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:47,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153303, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:51,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153304, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:54,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153305, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:49:58,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153306, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:01,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153307, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:05,   0.0002, psig,         , psig,         , psig, Abort, Fill Low
+153308, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:09,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153309, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:12,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153310, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:16,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153311, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:19,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153312, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:23,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153313, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:27,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153314, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:30,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153315, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:34,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153316, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:37,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153317, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:41,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153318, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:45,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153319, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:48,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153320, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:52,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153321, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:55,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153322, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:50:59,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153323, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:03,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153324, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:06,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153325, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:10,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153326, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:13,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153327, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:17,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153328, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:21,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153329, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:24,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153330, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:28,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153331, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:31,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153332, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:35,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153333, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:39,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153334, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:42,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153335, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:46,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153336, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:49,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153337, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:53,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153338, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:51:57,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153339, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:00,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153340, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:04,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153341, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:07,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153342, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:11,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153343, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:15,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+153344, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:18,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153345, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:22,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153346, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:25,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153347, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:29,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153348, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:33,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153349, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:36,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153350, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:40,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153351, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:43,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153352, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:47,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153353, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:51,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153354, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:54,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153355, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:52:58,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153356, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:01,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153357, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:05,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153358, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:09,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153359, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:12,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153360, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:16,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153361, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:19,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153362, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:23,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153363, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:27,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153364, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:30,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153365, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:34,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153366, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:37,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153367, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:41,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153368, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:45,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153369, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:48,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153370, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:52,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153371, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:55,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153372, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:53:59,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153373, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:03,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153374, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:06,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153375, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:10,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153376, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:13,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+153377, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:17,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153378, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:21,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153379, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:24,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153380, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:28,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153381, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:31,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153382, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:35,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153383, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:39,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153384, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:42,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153385, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:46,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153386, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:49,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153387, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:53,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153388, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:54:57,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153389, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:00,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153390, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:04,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153391, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:07,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153392, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:11,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153393, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:15,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153394, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:18,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153395, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:22,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153396, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:25,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153397, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:29,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153398, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:33,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153399, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:36,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153400, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:40,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153401, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:43,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153402, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:47,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153403, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:51,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153404, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:54,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153405, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:55:58,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153406, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:01,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153407, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:05,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153408, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:09,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153409, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:12,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153410, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:16,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153411, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:19,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153412, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:23,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153413, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:27,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153414, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:30,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153415, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:34,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153416, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:37,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153417, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:41,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153418, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:45,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153419, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:48,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153420, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:52,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153421, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:55,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153422, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:56:59,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153423, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:03,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153424, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:06,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153425, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:10,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153426, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:13,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+153427, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:17,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153428, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:21,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153429, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:24,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153430, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:28,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153431, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:31,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153432, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:35,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153433, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:39,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153434, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:42,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153435, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:46,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153436, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:49,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153437, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:53,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153438, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:57:57,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153439, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:00,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153440, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:04,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153441, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:07,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153442, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:11,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153443, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:15,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153444, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:18,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153445, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:22,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153446, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:25,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153447, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:29,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153448, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:33,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153449, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:36,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153450, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:40,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153451, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:43,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153452, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:47,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153453, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:51,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153454, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:54,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153455, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:58:58,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153456, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:01,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153457, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:05,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153458, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:09,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153459, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:12,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153460, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:16,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153461, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:19,   0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153462, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:23,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+153463, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:27,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153464, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:30,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153465, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:34,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153466, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:37,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153467, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:41,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+153468, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:45,  -0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153469, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:48,  -0.0002, psig,         , psig,         , psig, Abort, Fill Low
+153470, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:52,   0.0000, psig,         , psig,         , psig, Abort, Fill Low
+153471, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:55,  -0.0001, psig,         , psig,         , psig, Abort, Fill Low
+153472, 071709-001N, 1, Clearlink Standalone, 07/02/2026, 23:59:59,   0.0000, psig,         , psig,         , psig, Abort, Fill Low

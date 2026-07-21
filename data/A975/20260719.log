@@ -1,0 +1,230 @@
+653503, 066222-001N, 1, Clearlink, 07/19/2026, 05:26:24,   8.4270, psig,   8.4054, psig,   0.0107, psig, Pass,  , Pass
+653504, 066222-001N, 1, Clearlink, 07/19/2026, 05:26:43,   8.4221, psig,   8.4060, psig,   0.0091, psig, Pass,  , Pass
+653505, 066222-001N, 1, Clearlink, 07/19/2026, 05:27:00,   8.4239, psig,   8.4045, psig,   0.0088, psig, Pass,  , Pass
+653506, 066222-001N, 1, Clearlink, 07/19/2026, 05:27:15,   8.4227, psig,   8.4043, psig,   0.0085, psig, Pass,  , Pass
+653507, 066222-001N, 1, Clearlink, 07/19/2026, 05:27:28,   8.4221, psig,   8.3800, psig,   0.0395, psig, Pass,  , Pass
+653508, 066222-001N, 1, Clearlink, 07/19/2026, 05:27:52,   8.3975, psig,   7.3543, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653509, 066222-001N, 1, Clearlink, 07/19/2026, 05:40:09,   8.4067, psig,   8.3891, psig,   0.0093, psig, Pass,  , Pass
+653510, 066222-001N, 1, Clearlink, 07/19/2026, 05:40:19,   8.4039, psig,   8.3861, psig,   0.0091, psig, Pass,  , Pass
+653511, 066222-001N, 1, Clearlink, 07/19/2026, 05:40:30,   8.3439, psig,   8.3844, psig,   0.0089, psig, Pass,  , Pass
+653512, 066222-001N, 1, Clearlink, 07/19/2026, 05:41:01,   8.3927, psig,   7.9552, psig,   0.4295, psig, Pass,  , Pass
+653513, 066222-001N, 1, Clearlink, 07/19/2026, 05:41:43,   8.3363, psig,   8.3789, psig,   0.0088, psig, Pass,  , Pass
+653514, 066222-001N, 1, Clearlink, 07/19/2026, 05:41:55,   8.3946, psig,   8.3782, psig,   0.0084, psig, Pass,  , Pass
+653515, 066222-001N, 1, Clearlink, 07/19/2026, 05:42:34,   8.3984, psig,   8.3808, psig,   0.0085, psig, Pass,  , Pass
+653516, 066222-001N, 1, Clearlink, 07/19/2026, 05:43:03,   8.3969, psig,   8.3795, psig,   0.0083, psig, Pass,  , Pass
+653517, 066222-001N, 1, Clearlink, 07/19/2026, 05:43:31,   8.1155, psig,   7.4953, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653518, 066222-001N, 1, Clearlink, 07/19/2026, 06:08:08,   8.3985, psig,   8.3806, psig,   0.0096, psig, Pass,  , Pass
+653519, 066222-001N, 1, Clearlink, 07/19/2026, 21:20:35,   8.4290, psig,   8.4045, psig,   0.0106, psig, Pass,  , Pass
+653520, 066222-001N, 1, Clearlink, 07/19/2026, 21:31:23,   8.3528, psig,   8.3630, psig,   0.0098, psig, Pass,  , Pass
+653521, 066222-001N, 1, Clearlink, 07/19/2026, 21:35:33,   8.3877, psig,   8.3692, psig,   0.0093, psig, Pass,  , Pass
+653522, 066222-001N, 1, Clearlink, 07/19/2026, 21:35:49,   8.3789, psig,   8.3666, psig,   0.0114, psig, Pass,  , Pass
+653523, 066222-001N, 1, Clearlink, 07/19/2026, 21:36:10,   8.3807, psig,   8.3680, psig,   0.0092, psig, Pass,  , Pass
+653524, 066222-001N, 1, Clearlink, 07/19/2026, 21:36:44,   8.3903, psig,   8.3703, psig,   0.0086, psig, Pass,  , Pass
+653525, 066222-001N, 1, Clearlink, 07/19/2026, 21:37:07,   8.3836, psig,   8.3691, psig,   0.0090, psig, Pass,  , Pass
+653526, 066222-001N, 1, Clearlink, 07/19/2026, 21:37:22,   8.3903, psig,   8.3717, psig,   0.0085, psig, Pass,  , Pass
+653527, 066222-001N, 1, Clearlink, 07/19/2026, 21:37:39,   8.3853, psig,   8.3706, psig,   0.0088, psig, Pass,  , Pass
+653528, 066222-001N, 1, Clearlink, 07/19/2026, 21:39:28,   8.3895, psig,   8.3703, psig,   0.0087, psig, Pass,  , Pass
+653529, 066222-001N, 1, Clearlink, 07/19/2026, 21:40:40,   8.3275, psig,   8.3657, psig,   0.0090, psig, Pass,  , Pass
+653530, 066222-001N, 1, Clearlink, 07/19/2026, 21:40:59,   8.3327, psig,   8.3670, psig,   0.0087, psig, Pass,  , Pass
+653531, 066222-001N, 1, Clearlink, 07/19/2026, 21:41:18,   8.3724, psig,   7.5796, psig,   0.4665, psig, Pass,  , Pass
+653532, 066222-001N, 1, Clearlink, 07/19/2026, 21:41:36,   8.3317, psig,   8.3685, psig,   0.0088, psig, Pass,  , Pass
+653533, 066222-001N, 1, Clearlink, 07/19/2026, 21:42:23,   8.3787, psig,   8.3606, psig,   0.0087, psig, Pass,  , Pass
+653534, 066222-001N, 1, Clearlink, 07/19/2026, 21:42:54,   8.3823, psig,   8.3644, psig,   0.0086, psig, Pass,  , Pass
+653535, 066222-001N, 1, Clearlink, 07/19/2026, 21:43:50,   8.3463, psig,   8.3576, psig,   0.0089, psig, Pass,  , Pass
+653536, 066222-001N, 1, Clearlink, 07/19/2026, 21:44:00,   8.3675, psig,   8.3581, psig,   0.0097, psig, Pass,  , Pass
+653537, 066222-001N, 1, Clearlink, 07/19/2026, 21:44:46,   8.3759, psig,   8.3573, psig,   0.0085, psig, Pass,  , Pass
+653538, 066222-001N, 1, Clearlink, 07/19/2026, 21:45:16,   8.3923, psig,   8.3723, psig,   0.0083, psig, Pass,  , Pass
+653539, 066222-001N, 1, Clearlink, 07/19/2026, 21:45:47,   8.3616, psig,   8.3685, psig,   0.0092, psig, Pass,  , Pass
+653540, 066222-001N, 1, Clearlink, 07/19/2026, 21:46:42,   8.3654, psig,   8.3755, psig,   0.0093, psig, Pass,  , Pass
+653541, 066222-001N, 1, Clearlink, 07/19/2026, 21:47:07,   8.3899, psig,   8.3730, psig,   0.0086, psig, Pass,  , Pass
+653542, 066222-001N, 1, Clearlink, 07/19/2026, 21:47:37,   8.3912, psig,   8.3729, psig,   0.0090, psig, Pass,  , Pass
+653543, 066222-001N, 1, Clearlink, 07/19/2026, 21:48:04,   8.3723, psig,   8.3728, psig,   0.0086, psig, Pass,  , Pass
+653544, 066222-001N, 1, Clearlink, 07/19/2026, 21:48:15,   8.3737, psig,   8.3716, psig,   0.0085, psig, Pass,  , Pass
+653545, 066222-001N, 1, Clearlink, 07/19/2026, 21:48:53,   8.3758, psig,   8.3693, psig,   0.0116, psig, Pass,  , Pass
+653546, 066222-001N, 1, Clearlink, 07/19/2026, 21:49:55,   8.3643, psig,   8.3552, psig,   0.0084, psig, Pass,  , Pass
+653547, 066222-001N, 1, Clearlink, 07/19/2026, 21:50:46,   8.3675, psig,   8.3612, psig,   0.0086, psig, Pass,  , Pass
+653548, 066222-001N, 1, Clearlink, 07/19/2026, 21:51:06,   8.3837, psig,   8.3655, psig,   0.0085, psig, Pass,  , Pass
+653549, 066222-001N, 1, Clearlink, 07/19/2026, 21:51:35,   8.0992, psig,   7.4233, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653550, 066222-001N, 1, Clearlink, 07/19/2026, 21:52:09,   8.0807, psig,   7.1877, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653551, 066222-001N, 1, Clearlink, 07/19/2026, 21:52:51,   8.4072, psig,   8.3897, psig,   0.0095, psig, Pass,  , Pass
+653552, 066222-001N, 1, Clearlink, 07/19/2026, 21:53:44,   8.3815, psig,   8.3682, psig,   0.0087, psig, Pass,  , Pass
+653553, 066222-001N, 1, Clearlink, 07/19/2026, 21:54:01,   8.3818, psig,   8.3701, psig,   0.0086, psig, Pass,  , Pass
+653554, 066222-001N, 1, Clearlink, 07/19/2026, 21:55:11,   8.4020, psig,   8.3813, psig,   0.0091, psig, Pass,  , Pass
+653555, 066222-001N, 1, Clearlink, 07/19/2026, 21:55:37,   8.3899, psig,   8.3732, psig,   0.0088, psig, Pass,  , Pass
+653556, 066222-001N, 1, Clearlink, 07/19/2026, 21:55:56,   8.3325, psig,   8.3505, psig,   0.0357, psig, Pass,  , Pass
+653557, 066222-001N, 1, Clearlink, 07/19/2026, 21:56:23,   8.3898, psig,   8.3723, psig,   0.0118, psig, Pass,  , Pass
+653558, 066222-001N, 1, Clearlink, 07/19/2026, 21:56:49,   8.3302, psig,   8.3710, psig,   0.0088, psig, Pass,  , Pass
+653559, 066222-001N, 1, Clearlink, 07/19/2026, 21:57:16,   8.3436, psig,   8.3730, psig,   0.0088, psig, Pass,  , Pass
+653560, 066222-001N, 1, Clearlink, 07/19/2026, 21:57:35,   8.3940, psig,   8.3763, psig,   0.0085, psig, Pass,  , Pass
+653561, 066222-001N, 1, Clearlink, 07/19/2026, 21:57:51,   8.3946, psig,   8.3770, psig,   0.0085, psig, Pass,  , Pass
+653562, 066222-001N, 1, Clearlink, 07/19/2026, 21:58:31,   8.3933, psig,   8.3767, psig,   0.0087, psig, Pass,  , Pass
+653563, 066222-001N, 1, Clearlink, 07/19/2026, 21:58:50,   8.3495, psig,   8.3747, psig,   0.0088, psig, Pass,  , Pass
+653564, 066222-001N, 1, Clearlink, 07/19/2026, 21:59:13,   8.3580, psig,   8.1513, psig,   0.2425, psig, Pass,  , Pass
+653565, 066222-001N, 1, Clearlink, 07/19/2026, 21:59:35,   8.3895, psig,   8.3766, psig,   0.0087, psig, Pass,  , Pass
+653566, 066222-001N, 1, Clearlink, 07/19/2026, 21:59:58,   8.4001, psig,   8.3815, psig,   0.0082, psig, Pass,  , Pass
+653567, 066222-001N, 1, Clearlink, 07/19/2026, 22:00:31,   8.3999, psig,   8.3827, psig,   0.0082, psig, Pass,  , Pass
+653568, 066222-001N, 1, Clearlink, 07/19/2026, 22:01:26,   8.3828, psig,   8.3635, psig,   0.0083, psig, Pass,  , Pass
+653569, 066222-001N, 1, Clearlink, 07/19/2026, 22:01:44,   8.3642, psig,   8.3710, psig,   0.0087, psig, Pass,  , Pass
+653570, 066222-001N, 1, Clearlink, 07/19/2026, 22:02:14,   8.3655, psig,   8.3715, psig,   0.0086, psig, Pass,  , Pass
+653571, 066222-001N, 1, Clearlink, 07/19/2026, 22:02:43,   8.3689, psig,   8.3729, psig,   0.0083, psig, Pass,  , Pass
+653572, 066222-001N, 1, Clearlink, 07/19/2026, 22:03:01,   8.3939, psig,   8.3767, psig,   0.0081, psig, Pass,  , Pass
+653573, 066222-001N, 1, Clearlink, 07/19/2026, 22:03:26,   8.3948, psig,   8.3669, psig,   0.0266, psig, Pass,  , Pass
+653574, 066222-001N, 1, Clearlink, 07/19/2026, 22:03:51,   8.3957, psig,   8.3791, psig,   0.0083, psig, Pass,  , Pass
+653575, 066222-001N, 1, Clearlink, 07/19/2026, 22:04:16,   8.3451, psig,   8.3732, psig,   0.0105, psig, Pass,  , Pass
+653576, 066222-001N, 1, Clearlink, 07/19/2026, 22:05:13,   8.3807, psig,   8.3610, psig,   0.0083, psig, Pass,  , Pass
+653577, 066222-001N, 1, Clearlink, 07/19/2026, 22:05:27,   8.3501, psig,   7.4933, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653578, 066222-001N, 1, Clearlink, 07/19/2026, 22:05:56,   8.4041, psig,   8.3168, psig,   0.0754, psig, Pass,  , Pass
+653579, 066222-001N, 1, Clearlink, 07/19/2026, 22:06:26,   8.3777, psig,   8.3737, psig,   0.0084, psig, Pass,  , Pass
+653580, 066222-001N, 1, Clearlink, 07/19/2026, 22:06:46,   8.3779, psig,   8.3735, psig,   0.0083, psig, Pass,  , Pass
+653581, 066222-001N, 1, Clearlink, 07/19/2026, 22:07:28,   8.3808, psig,   8.3730, psig,   0.0084, psig, Pass,  , Pass
+653582, 066222-001N, 1, Clearlink, 07/19/2026, 22:08:11,   8.3936, psig,   8.3758, psig,   0.0083, psig, Pass,  , Pass
+653583, 066222-001N, 1, Clearlink, 07/19/2026, 22:08:30,   8.3206, psig,   8.3731, psig,   0.0088, psig, Pass,  , Pass
+653584, 066222-001N, 1, Clearlink, 07/19/2026, 22:08:50,   8.3207, psig,   8.3736, psig,   0.0085, psig, Pass,  , Pass
+653585, 066222-001N, 1, Clearlink, 07/19/2026, 22:09:20,   8.3883, psig,   8.3766, psig,   0.0084, psig, Pass,  , Pass
+653586, 066222-001N, 1, Clearlink, 07/19/2026, 22:10:01,   8.3269, psig,   8.3773, psig,   0.0083, psig, Pass,  , Pass
+653587, 066222-001N, 1, Clearlink, 07/19/2026, 22:10:43,   8.3917, psig,   8.3778, psig,   0.0085, psig, Pass,  , Pass
+653588, 066222-001N, 1, Clearlink, 07/19/2026, 22:11:09,   8.2468, psig,   7.3662, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653589, 066222-001N, 1, Clearlink, 07/19/2026, 22:11:36,   8.4049, psig,   8.3911, psig,   0.0075, psig, Pass,  , Pass
+653590, 066222-001N, 1, Clearlink, 07/19/2026, 22:13:26,   8.3889, psig,   8.3699, psig,   0.0089, psig, Pass,  , Pass
+653591, 066222-001N, 1, Clearlink, 07/19/2026, 22:13:54,   8.2744, psig,   7.2562, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653592, 066222-001N, 1, Clearlink, 07/19/2026, 22:14:30,   8.3821, psig,   7.3380, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653593, 066222-001N, 1, Clearlink, 07/19/2026, 22:15:16,   8.4155, psig,   8.3905, psig,   0.0166, psig, Pass,  , Pass
+653594, 066222-001N, 1, Clearlink, 07/19/2026, 22:15:49,   8.3950, psig,   8.3735, psig,   0.0111, psig, Pass,  , Pass
+653595, 066222-001N, 1, Clearlink, 07/19/2026, 22:16:33,   8.3919, psig,   8.3740, psig,   0.0082, psig, Pass,  , Pass
+653596, 066222-001N, 1, Clearlink, 07/19/2026, 22:18:09,   8.3686, psig,   8.3789, psig,   0.0080, psig, Pass,  , Pass
+653597, 066222-001N, 1, Clearlink, 07/19/2026, 22:19:00,   8.1088, psig,   7.4685, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653598, 066222-001N, 1, Clearlink, 07/19/2026, 22:19:33,   8.3954, psig,   8.3808, psig,   0.0080, psig, Pass,  , Pass
+653599, 066222-001N, 1, Clearlink, 07/19/2026, 22:20:23,   8.3582, psig,   8.3487, psig,   0.0223, psig, Pass,  , Pass
+653600, 066222-001N, 1, Clearlink, 07/19/2026, 22:35:39,   8.3723, psig,   8.3690, psig,   0.0091, psig, Pass,  , Pass
+653601, 066222-001N, 1, Clearlink, 07/19/2026, 22:36:03,   8.3685, psig,   8.3697, psig,   0.0086, psig, Pass,  , Pass
+653602, 066222-001N, 1, Clearlink, 07/19/2026, 22:37:29,   8.2968, psig,   7.1635, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653603, 066222-001N, 1, Clearlink, 07/19/2026, 22:37:54,   8.3449, psig,   6.9710, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653604, 066222-001N, 1, Clearlink, 07/19/2026, 22:38:53,   8.4104, psig,   8.1656, psig,   0.2499, psig, Pass,  , Pass
+653605, 066222-001N, 1, Clearlink, 07/19/2026, 22:40:14,   8.3756, psig,   8.3661, psig,   0.0088, psig, Pass,  , Pass
+653606, 066222-001N, 1, Clearlink, 07/19/2026, 22:40:57,   8.3870, psig,   8.3713, psig,   0.0079, psig, Pass,  , Pass
+653607, 066222-001N, 1, Clearlink, 07/19/2026, 22:42:03,   8.3792, psig,   8.3676, psig,   0.0082, psig, Pass,  , Pass
+653608, 066222-001N, 1, Clearlink, 07/19/2026, 22:42:43,   8.3813, psig,   8.3677, psig,   0.0083, psig, Pass,  , Pass
+653609, 066222-001N, 1, Clearlink, 07/19/2026, 22:43:13,   8.3866, psig,   8.3684, psig,   0.0082, psig, Pass,  , Pass
+653610, 066222-001N, 1, Clearlink, 07/19/2026, 22:43:41,   8.3827, psig,   8.3688, psig,   0.0084, psig, Pass,  , Pass
+653611, 066222-001N, 1, Clearlink, 07/19/2026, 22:43:58,   8.3829, psig,   8.3699, psig,   0.0081, psig, Pass,  , Pass
+653612, 066222-001N, 1, Clearlink, 07/19/2026, 22:44:32,   8.3670, psig,   7.8788, psig,   0.2544, psig, Pass,  , Pass
+653613, 066222-001N, 1, Clearlink, 07/19/2026, 22:44:49,   8.0312, psig,   7.1932, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653614, 066222-001N, 1, Clearlink, 07/19/2026, 22:45:18,   7.9414, psig,   6.8471, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653615, 066222-001N, 1, Clearlink, 07/19/2026, 22:46:43,   5.9143, psig,         , psig,         , psig, Abort, Fill Low, NO RESULT 
+653616, 066222-001N, 1, Clearlink, 07/19/2026, 22:47:25,   8.3878, psig,   8.3699, psig,   0.0083, psig, Pass,  , Pass
+653617, 066222-001N, 1, Clearlink, 07/19/2026, 22:47:42,   8.2869, psig,   6.9889, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653618, 066222-001N, 1, Clearlink, 07/19/2026, 22:48:08,   8.3880, psig,   7.4619, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653619, 066222-001N, 1, Clearlink, 07/19/2026, 22:49:26,   8.4184, psig,   8.3592, psig,   0.0385, psig, Pass,  , Pass
+653620, 066222-001N, 1, Clearlink, 07/19/2026, 22:50:37,   8.3570, psig,   7.9742, psig,   0.4021, psig, Pass,  , Pass
+653621, 066222-001N, 1, Clearlink, 07/19/2026, 22:50:57,   8.3620, psig,   8.3686, psig,   0.0081, psig, Pass,  , Pass
+653622, 066222-001N, 1, Clearlink, 07/19/2026, 22:51:37,   5.1133, psig,         , psig,         , psig, Abort, Fill Low, NO RESULT 
+653623, 066222-001N, 1, Clearlink, 07/19/2026, 22:52:13,   8.4021, psig,   8.3901, psig,   0.0072, psig, Pass,  , Pass
+653624, 066222-001N, 1, Clearlink, 07/19/2026, 22:53:07,   8.3756, psig,   8.3730, psig,   0.0082, psig, Pass,  , Pass
+653625, 066222-001N, 1, Clearlink, 07/19/2026, 22:53:31,   8.3316, psig,   8.3687, psig,   0.0084, psig, Pass,  , Pass
+653626, 066222-001N, 1, Clearlink, 07/19/2026, 22:53:54,   8.3298, psig,   8.3706, psig,   0.0077, psig, Pass,  , Pass
+653627, 066222-001N, 1, Clearlink, 07/19/2026, 22:54:20,   8.3352, psig,   8.3140, psig,   0.0671, psig, Pass,  , Pass
+653628, 066222-001N, 1, Clearlink, 07/19/2026, 22:55:10,   8.3496, psig,   7.4661, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653629, 066222-001N, 1, Clearlink, 07/19/2026, 22:55:41,   8.3791, psig,   7.4164, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653630, 066222-001N, 1, Clearlink, 07/19/2026, 22:56:33,   8.4112, psig,   8.3950, psig,   0.0094, psig, Pass,  , Pass
+653631, 066222-001N, 1, Clearlink, 07/19/2026, 22:57:10,   8.3894, psig,   8.3716, psig,   0.0080, psig, Pass,  , Pass
+653632, 066222-001N, 1, Clearlink, 07/19/2026, 22:57:54,   8.3781, psig,   8.3679, psig,   0.0079, psig, Pass,  , Pass
+653633, 066222-001N, 1, Clearlink, 07/19/2026, 22:58:22,   8.3204, psig,   8.3664, psig,   0.0083, psig, Pass,  , Pass
+653634, 066222-001N, 1, Clearlink, 07/19/2026, 22:59:01,   8.3257, psig,   8.1549, psig,   0.2437, psig, Pass,  , Pass
+653635, 066222-001N, 1, Clearlink, 07/19/2026, 22:59:46,   8.3911, psig,   8.3734, psig,   0.0095, psig, Pass,  , Pass
+653636, 066222-001N, 1, Clearlink, 07/19/2026, 23:00:25,   8.3874, psig,   8.1157, psig,   0.2553, psig, Pass,  , Pass
+653637, 066222-001N, 1, Clearlink, 07/19/2026, 23:01:56,   8.3497, psig,   8.3724, psig,   0.0082, psig, Pass,  , Pass
+653638, 066222-001N, 1, Clearlink, 07/19/2026, 23:04:16,   8.3742, psig,   8.3613, psig,   0.0084, psig, Pass,  , Pass
+653639, 066222-001N, 1, Clearlink, 07/19/2026, 23:05:30,   8.3847, psig,   8.3668, psig,   0.0078, psig, Pass,  , Pass
+653640, 066222-001N, 1, Clearlink, 07/19/2026, 23:07:06,   8.3516, psig,   7.3276, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653641, 066222-001N, 1, Clearlink, 07/19/2026, 23:07:34,   8.3647, psig,   7.1882, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653642, 066222-001N, 1, Clearlink, 07/19/2026, 23:08:35,   8.4048, psig,   8.2854, psig,   0.1111, psig, Pass,  , Pass
+653643, 066222-001N, 1, Clearlink, 07/19/2026, 23:09:33,   8.3541, psig,   8.3629, psig,   0.0082, psig, Pass,  , Pass
+653644, 066222-001N, 1, Clearlink, 07/19/2026, 23:10:16,   8.3705, psig,   8.3653, psig,   0.0086, psig, Pass,  , Pass
+653645, 066222-001N, 1, Clearlink, 07/19/2026, 23:10:44,   8.3852, psig,   8.3686, psig,   0.0080, psig, Pass,  , Pass
+653646, 066222-001N, 1, Clearlink, 07/19/2026, 23:10:55,   8.3722, psig,   8.3676, psig,   0.0078, psig, Pass,  , Pass
+653647, 066222-001N, 1, Clearlink, 07/19/2026, 23:11:16,   8.3869, psig,   8.3713, psig,   0.0079, psig, Pass,  , Pass
+653648, 066222-001N, 1, Clearlink, 07/19/2026, 23:11:34,   8.3759, psig,   8.3688, psig,   0.0078, psig, Pass,  , Pass
+653649, 066222-001N, 1, Clearlink, 07/19/2026, 23:12:04,   8.3587, psig,   7.4620, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653650, 066222-001N, 1, Clearlink, 07/19/2026, 23:12:31,   8.3762, psig,   7.3309, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653651, 066222-001N, 1, Clearlink, 07/19/2026, 23:13:00,   8.3977, psig,   7.7952, psig,   0.3675, psig, Pass,  , Pass
+653652, 066222-001N, 1, Clearlink, 07/19/2026, 23:13:26,   8.3228, psig,   8.3678, psig,   0.0081, psig, Pass,  , Pass
+653653, 066222-001N, 1, Clearlink, 07/19/2026, 23:13:53,   8.3236, psig,   8.3698, psig,   0.0077, psig, Pass,  , Pass
+653654, 066222-001N, 1, Clearlink, 07/19/2026, 23:14:16,   8.3828, psig,   8.3685, psig,   0.0117, psig, Pass,  , Pass
+653655, 066222-001N, 1, Clearlink, 07/19/2026, 23:14:40,   8.3620, psig,   7.4742, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653656, 066222-001N, 1, Clearlink, 07/19/2026, 23:15:00,   8.3645, psig,   7.2543, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653657, 066222-001N, 1, Clearlink, 07/19/2026, 23:15:33,   8.4043, psig,   8.3890, psig,   0.0088, psig, Pass,  , Pass
+653658, 066222-001N, 1, Clearlink, 07/19/2026, 23:16:04,   8.3886, psig,   8.3717, psig,   0.0076, psig, Pass,  , Pass
+653659, 066222-001N, 1, Clearlink, 07/19/2026, 23:16:57,   8.3813, psig,   8.3653, psig,   0.0083, psig, Pass,  , Pass
+653660, 066222-001N, 1, Clearlink, 07/19/2026, 23:17:29,   8.3831, psig,   8.3658, psig,   0.0082, psig, Pass,  , Pass
+653661, 066222-001N, 1, Clearlink, 07/19/2026, 23:18:05,   8.3816, psig,   7.9116, psig,   0.4329, psig, Pass,  , Pass
+653662, 066222-001N, 1, Clearlink, 07/19/2026, 23:18:21,   8.2679, psig,   7.1829, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653663, 066222-001N, 1, Clearlink, 07/19/2026, 23:19:02,   8.4035, psig,   8.3894, psig,   0.0079, psig, Pass,  , Pass
+653664, 066222-001N, 1, Clearlink, 07/19/2026, 23:19:28,   8.3477, psig,   8.3680, psig,   0.0080, psig, Pass,  , Pass
+653665, 066222-001N, 1, Clearlink, 07/19/2026, 23:20:04,   8.3768, psig,   8.3637, psig,   0.0108, psig, Pass,  , Pass
+653666, 066222-001N, 1, Clearlink, 07/19/2026, 23:20:21,   8.3870, psig,   8.3702, psig,   0.0076, psig, Pass,  , Pass
+653667, 066222-001N, 1, Clearlink, 07/19/2026, 23:20:49,   8.3862, psig,   8.3701, psig,   0.0083, psig, Pass,  , Pass
+653668, 066222-001N, 1, Clearlink, 07/19/2026, 23:21:46,   8.3611, psig,   8.3695, psig,   0.0078, psig, Pass,  , Pass
+653669, 066222-001N, 1, Clearlink, 07/19/2026, 23:22:02,   8.3780, psig,   8.3634, psig,   0.0083, psig, Pass,  , Pass
+653670, 066222-001N, 1, Clearlink, 07/19/2026, 23:22:40,   8.3628, psig,   8.1966, psig,   0.1722, psig, Pass,  , Pass
+653671, 066222-001N, 1, Clearlink, 07/19/2026, 23:22:52,   8.3839, psig,   8.3686, psig,   0.0074, psig, Pass,  , Pass
+653672, 066222-001N, 1, Clearlink, 07/19/2026, 23:24:05,   8.3146, psig,   7.3984, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653673, 066222-001N, 1, Clearlink, 07/19/2026, 23:24:34,   8.3960, psig,   8.3821, psig,   0.0079, psig, Pass,  , Pass
+653674, 066222-001N, 1, Clearlink, 07/19/2026, 23:25:32,   8.3324, psig,   8.3613, psig,   0.0082, psig, Pass,  , Pass
+653675, 066222-001N, 1, Clearlink, 07/19/2026, 23:26:03,   8.3705, psig,   8.3677, psig,   0.0079, psig, Pass,  , Pass
+653676, 066222-001N, 1, Clearlink, 07/19/2026, 23:26:48,   8.3573, psig,   7.4645, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653677, 066222-001N, 1, Clearlink, 07/19/2026, 23:27:22,   5.6021, psig,         , psig,         , psig, Abort, Fill Low, NO RESULT 
+653678, 066222-001N, 1, Clearlink, 07/19/2026, 23:27:31,   8.3696, psig,   8.3124, psig,   0.0468, psig, Pass,  , Pass
+653679, 066222-001N, 1, Clearlink, 07/19/2026, 23:31:08,   8.3232, psig,   7.4736, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653680, 066222-001N, 1, Clearlink, 07/19/2026, 23:31:51,   8.4047, psig,   8.3893, psig,   0.0090, psig, Pass,  , Pass
+653681, 066222-001N, 1, Clearlink, 07/19/2026, 23:32:28,   8.3824, psig,   8.3649, psig,   0.0083, psig, Pass,  , Pass
+653682, 066222-001N, 1, Clearlink, 07/19/2026, 23:33:12,   8.3829, psig,   8.3661, psig,   0.0081, psig, Pass,  , Pass
+653683, 066222-001N, 1, Clearlink, 07/19/2026, 23:33:57,   8.3839, psig,   8.3700, psig,   0.0080, psig, Pass,  , Pass
+653684, 066222-001N, 1, Clearlink, 07/19/2026, 23:34:52,   8.3403, psig,   8.3696, psig,   0.0080, psig, Pass,  , Pass
+653685, 066222-001N, 1, Clearlink, 07/19/2026, 23:35:16,   8.3221, psig,   7.4195, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653686, 066222-001N, 1, Clearlink, 07/19/2026, 23:36:01,   8.4048, psig,   8.3805, psig,   0.0175, psig, Pass,  , Pass
+653687, 066222-001N, 1, Clearlink, 07/19/2026, 23:37:32,   8.3587, psig,   8.3668, psig,   0.0083, psig, Pass,  , Pass
+653688, 066222-001N, 1, Clearlink, 07/19/2026, 23:37:55,   8.3545, psig,   8.3668, psig,   0.0083, psig, Pass,  , Pass
+653689, 066222-001N, 1, Clearlink, 07/19/2026, 23:38:14,   8.3573, psig,   8.3652, psig,   0.0080, psig, Pass,  , Pass
+653690, 066222-001N, 1, Clearlink, 07/19/2026, 23:39:06,   5.0322, psig,         , psig,         , psig, Abort, Fill Low, NO RESULT 
+653691, 066222-001N, 1, Clearlink, 07/19/2026, 23:39:56,   8.4001, psig,   8.3845, psig,   0.0089, psig, Pass,  , Pass
+653692, 066222-001N, 1, Clearlink, 07/19/2026, 23:40:25,   8.3655, psig,   8.2024, psig,   0.1890, psig, Pass,  , Pass
+653693, 066222-001N, 1, Clearlink, 07/19/2026, 23:40:36,   8.3684, psig,   8.3650, psig,   0.0109, psig, Pass,  , Pass
+653694, 066222-001N, 1, Clearlink, 07/19/2026, 23:40:59,   8.3688, psig,   8.3668, psig,   0.0080, psig, Pass,  , Pass
+653695, 066222-001N, 1, Clearlink, 07/19/2026, 23:41:19,   8.3861, psig,   8.3692, psig,   0.0081, psig, Pass,  , Pass
+653696, 066222-001N, 1, Clearlink, 07/19/2026, 23:41:50,   8.3317, psig,   8.3672, psig,   0.0080, psig, Pass,  , Pass
+653697, 066222-001N, 1, Clearlink, 07/19/2026, 23:42:08,   8.3686, psig,   8.3705, psig,   0.0075, psig, Pass,  , Pass
+653698, 066222-001N, 1, Clearlink, 07/19/2026, 23:42:49,   8.3243, psig,   8.3677, psig,   0.0080, psig, Pass,  , Pass
+653699, 066222-001N, 1, Clearlink, 07/19/2026, 23:43:19,   8.3234, psig,   8.3700, psig,   0.0081, psig, Pass,  , Pass
+653700, 066222-001N, 1, Clearlink, 07/19/2026, 23:43:46,   8.3757, psig,   8.3706, psig,   0.0078, psig, Pass,  , Pass
+653701, 066222-001N, 1, Clearlink, 07/19/2026, 23:44:27,   8.3921, psig,   8.3750, psig,   0.0084, psig, Pass,  , Pass
+653702, 066222-001N, 1, Clearlink, 07/19/2026, 23:44:48,   8.3866, psig,   8.3773, psig,   0.0076, psig, Pass,  , Pass
+653703, 066222-001N, 1, Clearlink, 07/19/2026, 23:45:17,   8.3953, psig,   8.3800, psig,   0.0073, psig, Pass,  , Pass
+653704, 066222-001N, 1, Clearlink, 07/19/2026, 23:45:35,   8.3875, psig,   8.2554, psig,   0.1406, psig, Pass,  , Pass
+653705, 066222-001N, 1, Clearlink, 07/19/2026, 23:46:07,   8.3312, psig,   8.3781, psig,   0.0080, psig, Pass,  , Pass
+653706, 066222-001N, 1, Clearlink, 07/19/2026, 23:46:20,   8.3981, psig,   8.3830, psig,   0.0072, psig, Pass,  , Pass
+653707, 066222-001N, 1, Clearlink, 07/19/2026, 23:46:42,   8.3993, psig,   8.3847, psig,   0.0074, psig, Pass,  , Pass
+653708, 066222-001N, 1, Clearlink, 07/19/2026, 23:47:12,   8.3935, psig,   8.3828, psig,   0.0079, psig, Pass,  , Pass
+653709, 066222-001N, 1, Clearlink, 07/19/2026, 23:47:39,   8.3386, psig,   8.3836, psig,   0.0075, psig, Pass,  , Pass
+653710, 066222-001N, 1, Clearlink, 07/19/2026, 23:48:06,   8.3886, psig,   7.4767, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653711, 066222-001N, 1, Clearlink, 07/19/2026, 23:48:41,   8.3672, psig,   7.2034, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653712, 066222-001N, 1, Clearlink, 07/19/2026, 23:49:16,   8.4055, psig,   8.3913, psig,   0.0081, psig, Pass,  , Pass
+653713, 066222-001N, 1, Clearlink, 07/19/2026, 23:50:13,   5.9633, psig,         , psig,         , psig, Abort, Fill Low, NO RESULT 
+653714, 066222-001N, 1, Clearlink, 07/19/2026, 23:50:40,   8.3779, psig,   7.2736, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653715, 066222-001N, 1, Clearlink, 07/19/2026, 23:51:30,   8.4016, psig,   8.2931, psig,   0.1112, psig, Pass,  , Pass
+653716, 066222-001N, 1, Clearlink, 07/19/2026, 23:51:58,   8.3175, psig,   7.2337, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653717, 066222-001N, 1, Clearlink, 07/19/2026, 23:52:37,   8.3677, psig,   7.4634, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653718, 066222-001N, 1, Clearlink, 07/19/2026, 23:53:16,   8.4020, psig,   8.3882, psig,   0.0078, psig, Pass,  , Pass
+653719, 066222-001N, 1, Clearlink, 07/19/2026, 23:53:41,   8.3717, psig,   8.3661, psig,   0.0080, psig, Pass,  , Pass
+653720, 066222-001N, 1, Clearlink, 07/19/2026, 23:54:13,   8.3588, psig,   8.3683, psig,   0.0079, psig, Pass,  , Pass
+653721, 066222-001N, 1, Clearlink, 07/19/2026, 23:54:52,   8.3734, psig,   7.9510, psig,   0.3347, psig, Pass,  , Pass
+653722, 066222-001N, 1, Clearlink, 07/19/2026, 23:55:08,   8.2282, psig,   6.9660, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653723, 066222-001N, 1, Clearlink, 07/19/2026, 23:55:52,   8.4037, psig,   8.3889, psig,   0.0088, psig, Pass,  , Pass
+653724, 066222-001N, 1, Clearlink, 07/19/2026, 23:56:24,   8.3604, psig,   8.3682, psig,   0.0084, psig, Pass,  , Pass
+653725, 066222-001N, 1, Clearlink, 07/19/2026, 23:56:45,   8.3866, psig,   8.3712, psig,   0.0076, psig, Pass,  , Pass
+653726, 066222-001N, 1, Clearlink, 07/19/2026, 23:57:12,   8.3676, psig,   8.3694, psig,   0.0083, psig, Pass,  , Pass
+653727, 066222-001N, 1, Clearlink, 07/19/2026, 23:57:24,   8.3060, psig,   7.2061, psig,   0.0000, psig, Fail, Gross, NO RESULT 
+653728, 066222-001N, 1, Clearlink, 07/19/2026, 23:58:06,   8.4092, psig,   8.3943, psig,   0.0084, psig, Pass,  , Pass
+653729, 066222-001N, 1, Clearlink, 07/19/2026, 23:58:34,   8.3765, psig,   8.3700, psig,   0.0119, psig, Pass,  , Pass
+653730, 066222-001N, 1, Clearlink, 07/19/2026, 23:59:03,   8.3808, psig,   8.3744, psig,   0.0081, psig, Pass,  , Pass
+653731, 066222-001N, 1, Clearlink, 07/19/2026, 23:59:23,   8.3915, psig,   8.3743, psig,   0.0074, psig, Pass,  , Pass
+653732, 066222-001N, 1, Clearlink, 07/19/2026, 23:59:53,   8.3797, psig,   8.3763, psig,   0.0075, psig, Pass,  , Pass

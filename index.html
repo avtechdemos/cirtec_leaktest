@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>Clearlink Leak Tests</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a222c;
+      --surface-2: #232d3a;
+      --ink: #e8ecef;
+      --muted: #9aa7b5;
+      --line: #2e3a48;
+      --pass: #3ecf8e;
+      --pass-soft: #163528;
+      --fail: #f87171;
+      --fail-soft: #3f1d1d;
+      --abort: #f5d76e;
+      --abort-soft: #3d3514;
+      --unstable: #fb923c;
+      --unstable-soft: #3d2714;
+      --measured: #6cb6ff;
+      --calculated: #c4a1ff;
+      --schematic: #8b98a8;
+      --template: #6b7785;
+      --accent: #8ec8e8;
+      --maxlimit: #ff9b6a;
+      --chart-plot: #141b24;
+      --hover: #243040;
+      --selected: #2a3d52;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.45;
+    }
+
+    .page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.25rem 1.25rem 3rem;
+    }
+
+    header.dash-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 1.15rem;
+    }
+
+    header.dash-head h1 {
+      margin: 0;
+      font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+      letter-spacing: -0.02em;
+      color: var(--accent);
+    }
+
+    header.dash-head .sub {
+      margin: 0.25rem 0 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1rem;
+      align-items: flex-end;
+    }
+
+    .control label {
+      display: block;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .control select {
+      min-width: 10rem;
+      padding: 0.45rem 0.6rem;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--ink);
+      font-size: 0.95rem;
+    }
+
+    .kpi-strip {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      gap: 0.65rem;
+      margin-bottom: 1.15rem;
+    }
+
+    .kpi {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      padding: 0.7rem 0.75rem;
+      min-height: 4.5rem;
+    }
+
+    .kpi .label {
+      display: block;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 0.2rem;
+    }
+
+    .kpi .value {
+      font-size: 1.25rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .kpi .detail {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.1rem;
+    }
+
+    .kpi.pass .value { color: var(--pass); }
+    .kpi.fail .value { color: var(--fail); }
+    .kpi.abort .value { color: var(--abort); }
+    .kpi.unstable .value { color: var(--unstable); }
+    .kpi.maxlimit .value { color: var(--maxlimit); }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      margin-bottom: 1.15rem;
+    }
+
+    .panel-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .panel-head h2 {
+      margin: 0;
+      font-size: 1.05rem;
+      color: var(--accent);
+    }
+
+    .panel-body { padding: 0.85rem 1rem 1rem; }
+
+    .chart-wrap {
+      position: relative;
+      height: 280px;
+    }
+
+    .btn {
+      border: 1px solid var(--line);
+      background: var(--surface-2);
+      color: var(--ink);
+      padding: 0.35rem 0.7rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+
+    .btn:hover { background: var(--hover); }
+    .btn:disabled { opacity: 0.45; cursor: default; }
+
+    a.btn-help {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      min-height: 2.15rem;
+      padding: 0.45rem 0.85rem;
+      border: 1px solid var(--line);
+      background: var(--surface-2);
+      color: var(--ink);
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    a.btn-help:hover {
+      background: var(--hover);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .control select option {
+      background: var(--surface);
+      color: var(--ink);
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65rem 1rem;
+      align-items: flex-end;
+      margin-bottom: 0.75rem;
+    }
+
+    .hour-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.3rem 0.55rem;
+      background: var(--surface-2);
+      border: 1px solid var(--line);
+      font-size: 0.85rem;
+    }
+
+    .hour-pill.hidden { display: none; }
+
+    .grid-wrap {
+      overflow-x: auto;
+      max-height: 420px;
+      overflow-y: auto;
+      border: 1px solid var(--line);
+    }
+
+    table.tests {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+
+    table.tests th,
+    table.tests td {
+      text-align: left;
+      padding: 0.45rem 0.55rem;
+      border-bottom: 1px solid var(--line);
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+    }
+
+    table.tests th {
+      position: sticky;
+      top: 0;
+      background: var(--surface-2);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      z-index: 1;
+    }
+
+    table.tests tbody tr { cursor: pointer; }
+    table.tests tbody tr:hover { background: var(--hover); }
+    table.tests tbody tr.selected { background: var(--selected); }
+
+    .badge {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .badge.pass { background: var(--pass-soft); color: var(--pass); }
+    .badge.fail { background: var(--fail-soft); color: var(--fail); }
+    .badge.abort { background: var(--abort-soft); color: var(--abort); }
+    .badge.unstable { background: var(--unstable-soft); color: var(--unstable); }
+
+    .row-count {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .drawer-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+      z-index: 40;
+    }
+
+    .drawer-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: min(520px, 100%);
+      height: 100%;
+      background: var(--surface);
+      border-left: 1px solid var(--line);
+      box-shadow: -8px 0 24px rgba(0,0,0,0.45);
+      transform: translateX(100%);
+      transition: transform 0.22s ease;
+      z-index: 50;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .drawer.open { transform: translateX(0); }
+
+    .drawer-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0.9rem 1rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .drawer-head h2 {
+      margin: 0;
+      font-size: 1.1rem;
+      color: var(--accent);
+    }
+
+    .drawer-body {
+      padding: 1rem;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .chart-wrap-svg {
+      width: 100%;
+      overflow-x: auto;
+      background: var(--chart-plot);
+      border: 1px solid var(--line);
+      margin-bottom: 0.85rem;
+    }
+
+    .chart-wrap-svg svg {
+      display: block;
+      width: 100%;
+      min-width: 460px;
+      height: auto;
+    }
+
+    .numbers {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 0.55rem;
+      margin-bottom: 0.85rem;
+    }
+
+    .num {
+      padding: 0.5rem 0.65rem;
+      background: var(--surface-2);
+      border: 1px solid var(--line);
+    }
+
+    .num .label {
+      display: block;
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 0.1rem;
+    }
+
+    .num .value {
+      font-size: 0.95rem;
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+    }
+
+    .num .tag {
+      display: inline-block;
+      margin-top: 0.15rem;
+      font-size: 0.65rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .tag.measured { color: var(--measured); }
+    .tag.calculated { color: var(--calculated); }
+    .tag.schematic { color: var(--schematic); }
+    .tag.derived { color: var(--muted); }
+
+    .raw {
+      margin: 0;
+      padding: 0.7rem 0.8rem;
+      background: #0a0e13;
+      color: #d5dde5;
+      border: 1px solid var(--line);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 0.72rem;
+      line-height: 1.4;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+
+    .raw-label {
+      margin: 0 0 0.3rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .legend-inline {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.5rem;
+    }
+
+    .legend-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin-right: 0.3rem;
+      vertical-align: middle;
+    }
+
+    @media (max-width: 1100px) {
+      .kpi-strip { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 700px) {
+      .kpi-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .page { padding: 1rem 0.75rem 2.5rem; }
+    }
+
+    .status-banner {
+      margin: 0 0 1rem;
+      padding: 0.65rem 0.85rem;
+      border: 1px solid var(--line);
+      background: var(--surface-2);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .status-banner.error {
+      border-color: var(--fail);
+      background: var(--fail-soft);
+      color: var(--fail);
+    }
+
+    .status-banner.loading {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .status-banner.hidden { display: none; }
+
+    .page.loading-data .kpi .value,
+    .page.loading-data .chart-wrap,
+    .page.loading-data .grid-wrap {
+      opacity: 0.45;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="dash-head">
+      <div>
+        <h1>Clearlink Leak Tests</h1>
+      </div>
+      <div class="controls">
+        <div class="control">
+          <label for="machineSelect">Machine</label>
+          <select id="machineSelect"></select>
+        </div>
+        <div class="control">
+          <label for="dateSelect">Date</label>
+          <select id="dateSelect"></select>
+        </div>
+        <div class="control">
+          <label for="allMachinesLink">&nbsp;</label>
+          <a id="allMachinesLink" class="btn-help" href="all-machines.html" target="_blank" rel="noopener noreferrer">All Machines View</a>
+        </div>
+        <div class="control">
+          <label for="helpLink">&nbsp;</label>
+          <a id="helpLink" class="btn-help" href="help.html" target="_blank" rel="noopener noreferrer">Help</a>
+        </div>
+      </div>
+    </header>
+
+    <div id="statusBanner" class="status-banner hidden" role="status" aria-live="polite"></div>
+
+    <section class="kpi-strip" aria-label="Day KPIs">
+      <div class="kpi" id="kpiTotal">
+        <span class="label">Total tests</span>
+        <div class="value">—</div>
+      </div>
+      <div class="kpi" id="kpiMeasured">
+        <span class="label">Measured</span>
+        <div class="value">—</div>
+        <div class="detail">finished Measure</div>
+      </div>
+      <div class="kpi pass" id="kpiPass">
+        <span class="label">Pass rate</span>
+        <div class="value">—</div>
+        <div class="detail">of measured</div>
+      </div>
+      <div class="kpi abort" id="kpiAbort">
+        <span class="label">Aborts</span>
+        <div class="value">—</div>
+        <div class="detail"></div>
+      </div>
+      <div class="kpi unstable" id="kpiUnstable">
+        <span class="label">Unstables</span>
+        <div class="value">—</div>
+        <div class="detail"></div>
+      </div>
+      <div class="kpi fail" id="kpiFail">
+        <span class="label">Fails</span>
+        <div class="value">—</div>
+        <div class="detail"></div>
+      </div>
+      <div class="kpi" id="kpiMedian">
+        <span class="label">Median Measure ΔP</span>
+        <div class="value">—</div>
+        <div class="detail">Pass only</div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Hourly results</h2>
+        <div>
+          <span class="hour-pill hidden" id="hourPill">Hour filter: <strong id="hourPillValue"></strong>
+            <button type="button" class="btn" id="clearHourBtn">Clear</button>
+          </span>
+        </div>
+      </div>
+      <div class="panel-body">
+        <div class="chart-wrap">
+          <canvas id="hourlyChart"></canvas>
+        </div>
+        <div class="legend-inline">
+          <span><span class="legend-dot" style="background:#3ecf8e"></span>Pass</span>
+          <span><span class="legend-dot" style="background:#f87171"></span>Fail</span>
+          <span><span class="legend-dot" style="background:#fb923c"></span>Unstable</span>
+          <span><span class="legend-dot" style="background:#f5d76e"></span>Abort</span>
+          <span>Click a bar to filter the grid by hour</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Measure ΔP distribution</h2>
+        <span class="row-count">Pass only (ΔP ≤ 1.0 psig)</span>
+      </div>
+      <div class="panel-body">
+        <div class="chart-wrap">
+          <canvas id="dpHistChart"></canvas>
+        </div>
+        <div class="legend-inline">
+          <span><span class="legend-dot" style="background:#3ecf8e"></span>Pass Measure ΔP</span>
+          <span id="histBinLabel">Bin width auto</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Tests</h2>
+        <span class="row-count" id="rowCount"></span>
+      </div>
+      <div class="panel-body">
+        <div class="filters">
+          <div class="control">
+            <label for="resultFilter">Result</label>
+            <select id="resultFilter">
+              <option value="">All</option>
+              <option value="Pass">Pass</option>
+              <option value="Fail">Fail</option>
+              <option value="Unstable">Unstable</option>
+              <option value="Abort">Abort</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid-wrap">
+          <table class="tests">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Cycle Id</th>
+                <th>Result</th>
+                <th>Fail Reason</th>
+                <th>Fill</th>
+                <th>Stabilize drop</th>
+                <th>Measure ΔP</th>
+                <th>Final</th>
+              </tr>
+            </thead>
+            <tbody id="testsBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-head">
+      <h2 id="drawerTitle">Cycle detail</h2>
+      <button type="button" class="btn" id="drawerClose">Close</button>
+    </div>
+    <div class="drawer-body" id="drawerBody"></div>
+  </aside>
+
+  <script>
+    const BAND_MIN = 7.5;
+    const BAND_MAX = 8.5;
+    const MEASURE_LIMIT = 1.0;
+    const STEP_LABELS = ["Start", "Fill end", "Stabilize end", "Measure end", "Vent end"];
+    const STEP_TIMES = ["0.0 s", "0.9 s", "1.8 s", "2.7 s", "3.6 s"];
+    const STAGE_BANDS = [
+      { from: 0, to: 1, label: "Fill 0.9s" },
+      { from: 1, to: 2, label: "Stab 0.9s" },
+      { from: 2, to: 3, label: "Meas 0.9s" },
+      { from: 3, to: 4, label: "Vent 0.9s" }
+    ];
+
+    const state = {
+      catalog: null,
+      machineId: null,
+      date: null,
+      hour: null,
+      result: "",
+      selectedCycleId: null,
+      chart: null,
+      histChart: null,
+      records: [],
+      loadToken: 0
+    };
+
+    function fmt(n, digits = 4) {
+      if (n === null || n === undefined || Number.isNaN(n)) return "—";
+      return Number(n).toFixed(digits);
+    }
+
+    function display(v) {
+      if (v === null || v === undefined || v === "") return "—";
+      return String(v);
+    }
+
+    function pct(n, total) {
+      if (!total) return "0%";
+      return ((100 * n) / total).toFixed(1) + "%";
+    }
+
+    function median(arr) {
+      if (!arr.length) return null;
+      const s = [...arr].sort((a, b) => a - b);
+      const mid = Math.floor(s.length / 2);
+      return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
+    }
+
+    function classify(rec) {
+      if (rec.result === "Pass") return "pass";
+      if (rec.result === "Abort") return "abort";
+      if (rec.result === "Fail" && rec.failReason === "Gross") return "unstable";
+      if (rec.result === "Fail") return "fail";
+      return "other";
+    }
+
+    function displayStatus(rec) {
+      const c = classify(rec);
+      if (c === "pass") return "Pass";
+      if (c === "abort") return "Abort";
+      if (c === "unstable") return "Unstable";
+      if (c === "fail") return "Fail";
+      return rec.result || "—";
+    }
+
+    function badgeKind(rec) {
+      const c = classify(rec);
+      if (c === "pass") return "pass";
+      if (c === "abort") return "abort";
+      if (c === "unstable") return "unstable";
+      return "fail";
+    }
+
+    function currentMachine() {
+      if (!state.catalog) return null;
+      return state.catalog.machines.find((m) => m.id === state.machineId) || null;
+    }
+
+    function isoToYyyymmdd(iso) {
+      return String(iso || "").replace(/-/g, "");
+    }
+
+    function resolveLogUrl(machine, isoDate) {
+      const ymd = isoToYyyymmdd(isoDate);
+      const fileName = machine.filePattern.replace("{YYYYMMDD}", ymd);
+      return "data/" + machine.folder + "/" + fileName;
+    }
+
+    function parseNumber(raw) {
+      const s = String(raw ?? "").trim();
+      if (!s) return null;
+      const n = Number(s);
+      return Number.isFinite(n) ? n : null;
+    }
+
+    function parseHour(timeStr) {
+      const m = String(timeStr || "").match(/^(\d{1,2}):/);
+      if (!m) return null;
+      const h = Number(m[1]);
+      return h >= 0 && h <= 23 ? h : null;
+    }
+
+    function enrichRecord(rec) {
+      if (rec.result === "Pass" || (rec.result === "Fail" && rec.failReason !== "Gross" && rec.measureDp != null && rec.finalP != null)) {
+        rec.measureStart = rec.finalP + rec.measureDp;
+        rec.stabilizeDrop = rec.fill != null ? rec.fill - rec.measureStart : null;
+      } else if (rec.result === "Fail" && rec.failReason === "Gross" && rec.fill != null && rec.finalP != null) {
+        rec.measureStart = null;
+        rec.stabilizeDrop = rec.fill - rec.finalP;
+      } else {
+        rec.measureStart = null;
+        rec.stabilizeDrop = null;
+      }
+      return rec;
+    }
+
+    function parseLogText(text) {
+      const records = [];
+      const lines = String(text || "").split(/\r?\n/);
+      for (const line of lines) {
+        const raw = line.trimEnd();
+        if (!raw.trim()) continue;
+        const parts = raw.split(",").map((p) => p.trim());
+        if (parts.length < 13) continue;
+
+        const cycleId = parseNumber(parts[0]);
+        if (cycleId == null) continue;
+
+        const fill = parseNumber(parts[6]);
+        const finalP = parseNumber(parts[8]);
+        const measureDp = parseNumber(parts[10]);
+        const result = parts[12] || "";
+        const failReason = parts[13] || "";
+
+        records.push(enrichRecord({
+          cycleId,
+          serial: parts[1] || "",
+          channel: parseNumber(parts[2]),
+          program: parts[3] || "",
+          date: parts[4] || "",
+          time: parts[5] || "",
+          hour: parseHour(parts[5]),
+          fill,
+          finalP,
+          measureDp,
+          result,
+          failReason,
+          raw
+        }));
+      }
+      return records;
+    }
+
+    function setStatus(kind, message) {
+      const el = document.getElementById("statusBanner");
+      const page = document.querySelector(".page");
+      if (!message) {
+        el.className = "status-banner hidden";
+        el.textContent = "";
+        page.classList.remove("loading-data");
+        return;
+      }
+      el.textContent = message;
+      el.className = "status-banner " + (kind || "");
+      if (kind === "loading") page.classList.add("loading-data");
+      else page.classList.remove("loading-data");
+    }
+
+    function populateMachineSelect() {
+      const sel = document.getElementById("machineSelect");
+      sel.innerHTML = state.catalog.machines.map((m) =>
+        `<option value="${m.id}">${m.label}</option>`
+      ).join("");
+      if (!state.machineId || !state.catalog.machines.some((m) => m.id === state.machineId)) {
+        state.machineId = state.catalog.machines[0]?.id || null;
+      }
+      sel.value = state.machineId || "";
+    }
+
+    function syncAllMachinesLink() {
+      const link = document.getElementById("allMachinesLink");
+      if (!link) return;
+      link.href = state.date
+        ? "all-machines.html?date=" + encodeURIComponent(state.date)
+        : "all-machines.html";
+    }
+
+    function populateDateSelect() {
+      const machine = currentMachine();
+      const sel = document.getElementById("dateSelect");
+      const dates = machine ? [...machine.dates].sort().reverse() : [];
+      sel.innerHTML = dates.map((d) => `<option value="${d}">${d}</option>`).join("");
+      if (!dates.length) {
+        state.date = null;
+        syncAllMachinesLink();
+        return;
+      }
+      if (!state.date || !dates.includes(state.date)) {
+        state.date = dates[0];
+      }
+      sel.value = state.date;
+      syncAllMachinesLink();
+    }
+
+    function computeKpis(records) {
+      const total = records.length;
+      let pass = 0, unstable = 0, fail = 0, abort = 0;
+      const passDp = [];
+      for (const r of records) {
+        const c = classify(r);
+        if (c === "pass") {
+          pass++;
+          if (r.measureDp != null) passDp.push(r.measureDp);
+        } else if (c === "unstable") unstable++;
+        else if (c === "fail") fail++;
+        else if (c === "abort") abort++;
+      }
+      const measured = pass + fail;
+      return {
+        total,
+        measured,
+        pass,
+        passPct: pct(pass, measured),
+        unstable,
+        unstablePct: pct(unstable, total),
+        fail,
+        failPct: pct(fail, total),
+        abort,
+        abortPct: pct(abort, total),
+        medianDp: median(passDp)
+      };
+    }
+
+    function hourlyBuckets(records) {
+      const hours = Array.from({ length: 24 }, (_, h) => ({
+        hour: h,
+        pass: 0,
+        fail: 0,
+        unstable: 0,
+        abort: 0
+      }));
+      for (const r of records) {
+        const h = r.hour;
+        if (h == null || h < 0 || h > 23) continue;
+        const c = classify(r);
+        if (c === "pass") hours[h].pass++;
+        else if (c === "fail") hours[h].fail++;
+        else if (c === "unstable") hours[h].unstable++;
+        else if (c === "abort") hours[h].abort++;
+      }
+      return hours;
+    }
+
+    function renderKpis(k) {
+      document.querySelector("#kpiTotal .value").textContent = k.total.toLocaleString();
+      document.querySelector("#kpiMeasured .value").textContent = k.measured.toLocaleString();
+      document.querySelector("#kpiPass .value").textContent = k.passPct;
+      document.querySelector("#kpiAbort .value").textContent = String(k.abort);
+      document.querySelector("#kpiAbort .detail").textContent = k.abortPct;
+      document.querySelector("#kpiUnstable .value").textContent = String(k.unstable);
+      document.querySelector("#kpiUnstable .detail").textContent = k.unstablePct;
+      document.querySelector("#kpiFail .value").textContent = String(k.fail);
+      document.querySelector("#kpiFail .detail").textContent = k.failPct;
+      document.querySelector("#kpiMedian .value").textContent =
+        k.medianDp == null ? "—" : fmt(k.medianDp) + " psig";
+    }
+
+    function renderEmptyDashboard(message) {
+      state.records = [];
+      state.hour = null;
+      state.selectedCycleId = null;
+      document.getElementById("drawer").classList.remove("open");
+      document.getElementById("drawer").setAttribute("aria-hidden", "true");
+      document.getElementById("drawerBackdrop").classList.remove("open");
+      renderKpis(computeKpis([]));
+      renderChart(hourlyBuckets([]));
+      renderHistChart(histogramBuckets([]));
+      updateHourPill();
+      renderGrid();
+      if (message) setStatus("error", message);
+    }
+
+    function renderChart(buckets) {
+      const labels = buckets.map((b) => String(b.hour).padStart(2, "0"));
+      const tick = "#9aa7b5";
+      const grid = "#2e3a48";
+      const datasets = [
+        { label: "Pass", data: buckets.map((b) => b.pass), backgroundColor: "#3ecf8e", stack: "s" },
+        { label: "Fail", data: buckets.map((b) => b.fail), backgroundColor: "#f87171", stack: "s" },
+        { label: "Unstable", data: buckets.map((b) => b.unstable), backgroundColor: "#fb923c", stack: "s" },
+        { label: "Abort", data: buckets.map((b) => b.abort), backgroundColor: "#f5d76e", stack: "s" }
+      ];
+
+      const ctx = document.getElementById("hourlyChart");
+      if (state.chart) {
+        state.chart.destroy();
+        state.chart = null;
+      }
+
+      state.chart = new Chart(ctx, {
+        type: "bar",
+        data: { labels, datasets },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: "index", intersect: true },
+          onClick: (evt, elements) => {
+            if (!elements.length) return;
+            state.hour = elements[0].index;
+            updateHourPill();
+            renderGrid();
+          },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: "#1a222c",
+              titleColor: "#e8ecef",
+              bodyColor: "#e8ecef",
+              borderColor: "#2e3a48",
+              borderWidth: 1,
+              callbacks: {
+                title: (items) => "Hour " + items[0].label + ":00"
+              }
+            }
+          },
+          scales: {
+            x: {
+              stacked: true,
+              title: { display: true, text: "Hour of day", color: tick },
+              ticks: { color: tick },
+              grid: { display: false },
+              border: { color: grid }
+            },
+            y: {
+              stacked: true,
+              beginAtZero: true,
+              ticks: { precision: 0, color: tick },
+              title: { display: true, text: "Tests", color: tick },
+              grid: { color: grid },
+              border: { color: grid }
+            }
+          }
+        }
+      });
+    }
+
+    function niceBinWidth(range, targetBins) {
+      if (!(range > 0) || !(targetBins > 0)) return 0.001;
+      const raw = range / targetBins;
+      const exp = Math.floor(Math.log10(raw));
+      const base = Math.pow(10, exp);
+      const frac = raw / base;
+      let nice;
+      if (frac <= 1) nice = 1;
+      else if (frac <= 2) nice = 2;
+      else if (frac <= 5) nice = 5;
+      else nice = 10;
+      return nice * base;
+    }
+
+    function nextNiceWidth(width, direction) {
+      const exp = Math.floor(Math.log10(width));
+      const base = Math.pow(10, exp);
+      const frac = Math.round(width / base);
+      const steps = [1, 2, 5, 10];
+      let idx = steps.indexOf(frac);
+      if (idx < 0) idx = 0;
+      if (direction > 0) {
+        if (idx >= steps.length - 1) return base * 10;
+        return steps[idx + 1] * base;
+      }
+      if (idx <= 0) return base / 10;
+      return steps[idx - 1] * base;
+    }
+
+    function decimalsForWidth(w) {
+      if (w >= 1) return 0;
+      if (w >= 0.1) return 1;
+      if (w >= 0.01) return 2;
+      if (w >= 0.001) return 3;
+      return 4;
+    }
+
+    function formatBinWidth(w) {
+      return Number(w).toFixed(decimalsForWidth(w));
+    }
+
+    function histogramBuckets(records) {
+      const TARGET_BINS = 15;
+      const MIN_BINS = 10;
+      const MAX_BINS = 20;
+      const values = [];
+      for (const r of records) {
+        if (classify(r) === "pass" && r.measureDp != null) values.push(r.measureDp);
+      }
+      if (!values.length) return { labels: [], counts: [], binWidth: null };
+
+      let min = values[0];
+      let max = values[0];
+      for (const v of values) {
+        if (v < min) min = v;
+        if (v > max) max = v;
+      }
+
+      const range = max - min;
+      let binWidth = niceBinWidth(range > 0 ? range : 0.001, TARGET_BINS);
+
+      function layout(width) {
+        let start = Math.floor(min / width) * width;
+        let end = Math.ceil(max / width) * width;
+        if (end <= start) end = start + width;
+        // Guard float drift so (end - start) / width is a clean integer
+        let nBins = Math.max(1, Math.round((end - start) / width));
+        // Recompute end from integer bin count
+        end = start + nBins * width;
+        return { start, end, nBins, width };
+      }
+
+      let layoutInfo = layout(binWidth);
+
+      let guard = 0;
+      while (layoutInfo.nBins > MAX_BINS && guard < 20) {
+        binWidth = nextNiceWidth(binWidth, 1);
+        layoutInfo = layout(binWidth);
+        guard++;
+      }
+      guard = 0;
+      while (layoutInfo.nBins < MIN_BINS && range > 0 && guard < 20) {
+        const smaller = nextNiceWidth(binWidth, -1);
+        if (!(smaller > 0) || smaller >= binWidth) break;
+        const trial = layout(smaller);
+        if (trial.nBins > MAX_BINS) break;
+        binWidth = smaller;
+        layoutInfo = trial;
+        guard++;
+      }
+
+      const { start, nBins, width } = layoutInfo;
+      const decimals = decimalsForWidth(width);
+      const counts = Array(nBins).fill(0);
+      const labels = [];
+      for (let i = 0; i < nBins; i++) {
+        labels.push((start + i * width).toFixed(decimals));
+      }
+      for (const v of values) {
+        let idx = Math.floor((v - start) / width + 1e-12);
+        if (idx < 0) idx = 0;
+        if (idx >= nBins) idx = nBins - 1;
+        counts[idx]++;
+      }
+      return { labels, counts, binWidth: width };
+    }
+
+    function renderHistChart(buckets) {
+      const tick = "#9aa7b5";
+      const grid = "#2e3a48";
+      const ctx = document.getElementById("dpHistChart");
+      const binLabel = document.getElementById("histBinLabel");
+      if (binLabel) {
+        binLabel.textContent = buckets.binWidth == null
+          ? "Bin width auto"
+          : ("Bin width " + formatBinWidth(buckets.binWidth) + " psig · " + buckets.labels.length + " bins");
+      }
+      if (state.histChart) {
+        state.histChart.destroy();
+        state.histChart = null;
+      }
+
+      const binWidth = buckets.binWidth || 0;
+      const decimals = decimalsForWidth(binWidth || 0.001);
+
+      state.histChart = new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: buckets.labels,
+          datasets: [{
+            label: "Pass",
+            data: buckets.counts,
+            backgroundColor: "#3ecf8e",
+            borderWidth: 0,
+            categoryPercentage: 1,
+            barPercentage: 0.92
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: "#1a222c",
+              titleColor: "#e8ecef",
+              bodyColor: "#e8ecef",
+              borderColor: "#2e3a48",
+              borderWidth: 1,
+              callbacks: {
+                title: (items) => {
+                  const left = Number(items[0].label);
+                  const right = (left + binWidth).toFixed(decimals);
+                  return items[0].label + " – " + right + " psig";
+                },
+                label: (item) => "Count: " + item.raw
+              }
+            }
+          },
+          scales: {
+            x: {
+              title: { display: true, text: "Measure ΔP (psig)", color: tick },
+              ticks: { color: tick, maxRotation: 45, minRotation: 0 },
+              grid: { display: false },
+              border: { color: grid }
+            },
+            y: {
+              beginAtZero: true,
+              ticks: { precision: 0, color: tick },
+              title: { display: true, text: "Pass tests", color: tick },
+              grid: { color: grid },
+              border: { color: grid }
+            }
+          }
+        }
+      });
+    }
+
+    function updateHourPill() {
+      const pill = document.getElementById("hourPill");
+      if (state.hour == null) {
+        pill.classList.add("hidden");
+      } else {
+        pill.classList.remove("hidden");
+        const h = String(state.hour).padStart(2, "0");
+        document.getElementById("hourPillValue").textContent = h + ":00–" + h + ":59";
+      }
+    }
+
+    function filteredRecords() {
+      return state.records.filter((r) => {
+        if (state.hour != null && r.hour !== state.hour) return false;
+        if (state.result && displayStatus(r) !== state.result) return false;
+        return true;
+      });
+    }
+
+    function reasonDisplay(r) {
+      if (classify(r) === "pass") return "—";
+      return r.failReason ? r.failReason : "—";
+    }
+
+    function measureDpDisplay(r) {
+      if (classify(r) === "abort") return "—";
+      if (classify(r) === "unstable") return "0.0000*";
+      return r.measureDp == null ? "—" : fmt(r.measureDp);
+    }
+
+    function renderGrid() {
+      const rows = filteredRecords();
+      const tbody = document.getElementById("testsBody");
+      document.getElementById("rowCount").textContent =
+        rows.length + " of " + state.records.length + " tests";
+
+      tbody.innerHTML = rows.map((r) => {
+        const kind = badgeKind(r);
+        const status = displayStatus(r);
+        const selected = state.selectedCycleId === r.cycleId ? " selected" : "";
+        return `<tr data-cycle="${r.cycleId}" class="${selected}">
+          <td>${r.time}</td>
+          <td>${r.cycleId}</td>
+          <td><span class="badge ${kind}">${status}</span></td>
+          <td>${reasonDisplay(r)}</td>
+          <td>${fmt(r.fill)}</td>
+          <td>${r.stabilizeDrop == null ? "—" : fmt(r.stabilizeDrop)}</td>
+          <td>${measureDpDisplay(r)}</td>
+          <td>${r.finalP == null ? "—" : fmt(r.finalP)}</td>
+        </tr>`;
+      }).join("");
+    }
+
+    function typicalFill(records) {
+      const fills = records.filter((r) => r.result === "Pass" && r.fill != null).map((r) => r.fill);
+      return median(fills) || 8.0;
+    }
+
+    function derivedForDrawer(r) {
+      if (r.result === "Pass" || (r.result === "Fail" && r.failReason !== "Gross" && r.measureDp != null && r.finalP != null)) {
+        const measureStart = r.measureStart != null ? r.measureStart : r.finalP + r.measureDp;
+        const stabilize = r.stabilizeDrop != null ? r.stabilizeDrop : r.fill - measureStart;
+        return {
+          stabilize,
+          measureStart,
+          finalP: r.finalP,
+          measureDp: r.measureDp,
+          stabilizeTag: "derived",
+          measureStartTag: "calculated",
+          finalTag: "measured",
+          dpTag: "measured",
+          kind: r.result === "Pass" ? "pass" : "fail-dp"
+        };
+      }
+      if (r.result === "Fail" && r.failReason === "Gross") {
+        return {
+          stabilize: r.stabilizeDrop != null ? r.stabilizeDrop : (r.fill != null && r.finalP != null ? r.fill - r.finalP : null),
+          measureStart: null,
+          finalP: r.finalP,
+          measureDp: r.measureDp,
+          stabilizeTag: "derived · unstable collapse",
+          measureStartTag: "not reached",
+          finalTag: "measured",
+          dpTag: "not meaningful",
+          kind: "unstable"
+        };
+      }
+      return {
+        stabilize: null,
+        measureStart: null,
+        finalP: null,
+        measureDp: null,
+        stabilizeTag: "not reached",
+        measureStartTag: "not reached",
+        finalTag: "not in log",
+        dpTag: "not in log",
+        kind: "abort"
+      };
+    }
+
+    function buildTemplatePoints(fillPlateau) {
+      return [
+        { step: 0, p: 0 },
+        { step: 1, p: fillPlateau },
+        { step: 2, p: fillPlateau },
+        { step: 3, p: fillPlateau },
+        { step: 4, p: 0 }
+      ];
+    }
+
+    function buildActualPoints(r, d, targetFill) {
+      if (d.kind === "pass" || d.kind === "fail-dp") {
+        return [
+          { step: 0, p: 0, type: "schematic", label: "0*" },
+          { step: 1, p: r.fill, type: "measured", label: fmt(r.fill) },
+          { step: 2, p: d.measureStart, type: "calculated", label: fmt(d.measureStart) },
+          { step: 3, p: r.finalP, type: "measured", label: fmt(r.finalP) },
+          { step: 4, p: 0, type: "schematic", label: "0*" }
+        ];
+      }
+      if (d.kind === "unstable") {
+        return [
+          { step: 0, p: 0, type: "schematic", label: "0*" },
+          { step: 1, p: r.fill, type: "measured", label: fmt(r.fill) },
+          { step: 2, p: r.finalP, type: "measured", label: fmt(r.finalP) },
+          { step: 3, p: r.finalP, type: "schematic", label: fmt(r.finalP) },
+          { step: 4, p: 0, type: "schematic", label: "0*" }
+        ];
+      }
+      const stopStep = Math.min(0.95, (r.fill || 0) / targetFill);
+      return [
+        { step: 0, p: 0, type: "schematic", label: "0*" },
+        { step: stopStep, p: r.fill, type: "measured", label: fmt(r.fill), end: true }
+      ];
+    }
+
+    function callouts(r, d, targetFill) {
+      if (d.kind === "pass" || d.kind === "fail-dp") {
+        const notes = [{ atSteps: [1, 2], text: `Stabilize −${fmt(d.stabilize)}` }];
+        const dpNote = d.kind === "fail-dp"
+          ? `Measure ΔP −${fmt(d.measureDp)} (> 1.0 Fail)`
+          : `Measure ΔP −${fmt(d.measureDp)} (≤ 1.0)`;
+        notes.push({ atSteps: [2, 3], text: dpNote });
+        return notes;
+      }
+      if (d.kind === "unstable") {
+        return [{ atSteps: [1, 2], text: `Left 7.5–8.5 (−${fmt(d.stabilize)})` }];
+      }
+      const stopStep = Math.min(0.95, (r.fill || 0) / targetFill);
+      return [{ atSteps: [0, stopStep], text: "Outside 7.5–8.5 → Abort" }];
+    }
+
+    function bandRectDark(xAt, yAt) {
+      const yTop = yAt(BAND_MAX);
+      const yBot = yAt(BAND_MIN);
+      const x0 = xAt(0);
+      const x1 = xAt(2);
+      return `
+        <rect x="${x0}" y="${yTop}" width="${x1 - x0}" height="${yBot - yTop}"
+          fill="#3ecf8e" opacity="0.12" />
+        <line x1="${x0}" y1="${yTop}" x2="${x1}" y2="${yTop}" stroke="#3ecf8e" stroke-width="1" stroke-dasharray="4 3" opacity="0.65" />
+        <line x1="${x0}" y1="${yBot}" x2="${x1}" y2="${yBot}" stroke="#3ecf8e" stroke-width="1" stroke-dasharray="4 3" opacity="0.65" />
+        <text x="${xAt(1)}" y="${yTop - 5}" text-anchor="middle" font-size="9" fill="#3ecf8e">7.5–8.5 psig</text>
+      `;
+    }
+
+    function stageAxisDark(xAt, H) {
+      const bands = STAGE_BANDS.map((b) => {
+        const mid = (b.from + b.to) / 2;
+        return `<text x="${xAt(mid)}" y="${H - 10}" text-anchor="middle" font-size="8" fill="#8b98a8">${b.label}</text>`;
+      }).join("");
+      const ticks = STEP_LABELS.map((label, i) => `
+        <text x="${xAt(i)}" y="${H - 36}" text-anchor="middle" font-size="9" font-weight="600" fill="#e8ecef">${label}</text>
+        <text x="${xAt(i)}" y="${H - 24}" text-anchor="middle" font-size="8" fill="#9aa7b5">${STEP_TIMES[i]}</text>
+      `).join("");
+      return ticks + bands;
+    }
+
+    function renderDrawerChart(r, d, targetFill) {
+      const plateau = d.kind === "abort" ? targetFill : r.fill;
+      const template = buildTemplatePoints(plateau);
+      const actual = buildActualPoints(r, d, targetFill);
+      const notes = callouts(r, d, targetFill);
+
+      const W = 520;
+      const H = 320;
+      const pad = { top: 36, right: 16, bottom: 78, left: 48 };
+      const plotW = W - pad.left - pad.right;
+      const plotH = H - pad.top - pad.bottom;
+
+      const allP = [...template.map((p) => p.p), ...actual.map((p) => p.p)];
+      const yMax = Math.ceil(Math.max(...allP, BAND_MAX) * 10) / 10 + 0.3;
+
+      const xAt = (step) => pad.left + (step / 4) * plotW;
+      const yAt = (p) => pad.top + plotH - (p / yMax) * plotH;
+
+      const color =
+        d.kind === "pass" ? "#3ecf8e" :
+        d.kind === "abort" ? "#f5d76e" :
+        d.kind === "unstable" ? "#fb923c" : "#f87171";
+      const typeColor = { measured: "#6cb6ff", calculated: "#c4a1ff", schematic: "#8b98a8" };
+
+      const templatePath = template
+        .map((pt, i) => `${i === 0 ? "M" : "L"} ${xAt(pt.step)} ${yAt(pt.p)}`)
+        .join(" ");
+      const actualPath = actual
+        .map((pt, i) => `${i === 0 ? "M" : "L"} ${xAt(pt.step)} ${yAt(pt.p)}`)
+        .join(" ");
+
+      let gridLines = "";
+      for (let i = 0; i <= 5; i++) {
+        const val = (yMax / 5) * i;
+        const y = yAt(val);
+        gridLines += `
+          <line x1="${pad.left}" y1="${y}" x2="${W - pad.right}" y2="${y}" stroke="#2e3a48" stroke-width="1" />
+          <text x="${pad.left - 8}" y="${y + 4}" text-anchor="end" font-size="10" fill="#9aa7b5">${val.toFixed(1)}</text>`;
+      }
+
+      const templateDots = template.map((pt) =>
+        `<circle cx="${xAt(pt.step)}" cy="${yAt(pt.p)}" r="3.5" fill="#141b24" stroke="#6b7785" stroke-width="1.5" stroke-dasharray="2 2" />`
+      ).join("");
+
+      const actualDots = actual.map((pt) => {
+        const stroke = typeColor[pt.type];
+        const fill = pt.type === "schematic" ? "#141b24" : stroke;
+        const dash = pt.type === "schematic" ? 'stroke-dasharray="3 2"' : "";
+        const labelY = pt.p > yMax * 0.55 ? yAt(pt.p) - 12 : yAt(pt.p) + 16;
+        return `
+          <circle cx="${xAt(pt.step)}" cy="${yAt(pt.p)}" r="6" fill="${fill}" stroke="${stroke}" stroke-width="2" ${dash} />
+          <text x="${xAt(pt.step)}" y="${labelY}" text-anchor="middle" font-size="10" font-weight="700" fill="${stroke}">${pt.label}</text>`;
+      }).join("");
+
+      const noteEls = notes.map((n) => {
+        const mid = (n.atSteps[0] + n.atSteps[1]) / 2;
+        const p0 = actual.find((a) => a.step === n.atSteps[0]) || { p: 0 };
+        const p1 = actual.find((a) => a.step === n.atSteps[1]) || actual[actual.length - 1];
+        const y = Math.min(yAt(p0.p), yAt(p1.p)) + (d.kind === "pass" || d.kind === "fail-dp" ? 24 : -14);
+        return `<text x="${xAt(mid)}" y="${y}" text-anchor="middle" font-size="10" fill="#9aa7b5">${n.text}</text>`;
+      }).join("");
+
+      return `
+        <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Pressure profile">
+          <rect x="0" y="0" width="${W}" height="${H}" fill="#141b24" />
+          ${gridLines}
+          ${bandRectDark(xAt, yAt)}
+          <text x="14" y="${pad.top + plotH / 2}" transform="rotate(-90 14 ${pad.top + plotH / 2})" text-anchor="middle" font-size="11" fill="#9aa7b5">Pressure (psig)</text>
+          <text x="${pad.left}" y="18" font-size="11" font-weight="700" fill="#8ec8e8">Ideal template vs actual</text>
+          <path d="${templatePath}" fill="none" stroke="#6b7785" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" opacity="0.85" />
+          ${templateDots}
+          <path d="${actualPath}" fill="none" stroke="${color}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+          ${noteEls}
+          ${actualDots}
+          ${stageAxisDark(xAt, H)}
+        </svg>`;
+    }
+
+    function openDrawer(r) {
+      state.selectedCycleId = r.cycleId;
+      const d = derivedForDrawer(r);
+      const targetFill = typicalFill(state.records);
+      const status = displayStatus(r);
+      const kind = badgeKind(r);
+      const kindBadge = `<span class="badge ${kind}">${status}</span>`;
+
+      const cards = [
+        { label: "Machine Serial", value: display(r.serial), tag: null },
+        { label: "Cycle Id", value: display(r.cycleId), tag: null },
+        { label: "Test Date / Test Time", value: `${r.date} ${r.time}`, tag: null },
+        { label: "Fill Pressure", value: `${fmt(r.fill)} psig`, tag: "measured", tagClass: "measured" },
+        {
+          label: "Stabilize drop",
+          value: d.stabilize == null ? "—" : `${fmt(d.stabilize)} psig`,
+          tag: d.stabilizeTag,
+          tagClass: d.stabilize == null ? "schematic" : "derived"
+        },
+        {
+          label: "Start of Measure",
+          value: d.measureStart == null ? "—" : `${fmt(d.measureStart)} psig`,
+          tag: d.measureStartTag,
+          tagClass: d.measureStart == null ? "schematic" : "calculated"
+        },
+        {
+          label: "Final Pressure",
+          value: d.finalP == null ? "—" : `${fmt(d.finalP)} psig`,
+          tag: d.finalTag,
+          tagClass: d.finalP == null ? "schematic" : "measured"
+        },
+        {
+          label: "Measure ΔP",
+          value: d.measureDp == null ? "—" : `${fmt(d.measureDp)} psig`,
+          tag: d.dpTag,
+          tagClass: d.measureDp == null || d.dpTag === "not meaningful" ? "schematic" : "measured"
+        },
+        { label: "Result", value: status, tag: null },
+        { label: "Fail Reason", value: reasonDisplay(r), tag: null }
+      ];
+
+      const cardsHtml = cards.map((c) => `
+        <div class="num">
+          <span class="label">${c.label}</span>
+          <span class="value">${c.value}</span>
+          ${c.tag ? `<span class="tag ${c.tagClass || ""}">${c.tag}</span>` : ""}
+        </div>`).join("");
+
+      document.getElementById("drawerTitle").innerHTML = `Cycle ${r.cycleId} ${kindBadge}`;
+      document.getElementById("drawerBody").innerHTML = `
+        <div class="chart-wrap-svg">${renderDrawerChart(r, d, targetFill)}</div>
+        <p style="font-size:0.78rem;color:var(--muted);margin:0.35rem 0 0.75rem">
+          Fill/Stabilize: 7.5–8.5 psig · Measure Pass if ΔP ≤ 1.0 · Stages 0.9 s each (incl. Vent)
+        </p>
+        <div class="numbers">${cardsHtml}</div>
+        <p class="raw-label">Raw log line</p>
+        <pre class="raw">${r.raw}</pre>
+        ${classify(r) === "unstable"
+          ? '<p style="font-size:0.8rem;color:var(--muted);margin:0.5rem 0 0">* Measure ΔP 0.0000 is not meaningful for Unstable (left 7.5–8.5 during Stabilize; log may still say Fail, Gross).</p>'
+          : ""}
+      `;
+
+      document.getElementById("drawer").classList.add("open");
+      document.getElementById("drawer").setAttribute("aria-hidden", "false");
+      document.getElementById("drawerBackdrop").classList.add("open");
+      renderGrid();
+    }
+
+    function closeDrawer() {
+      state.selectedCycleId = null;
+      document.getElementById("drawer").classList.remove("open");
+      document.getElementById("drawer").setAttribute("aria-hidden", "true");
+      document.getElementById("drawerBackdrop").classList.remove("open");
+      renderGrid();
+    }
+
+    async function refreshDay() {
+      const machine = currentMachine();
+      const token = ++state.loadToken;
+
+      state.hour = null;
+      state.selectedCycleId = null;
+      document.getElementById("drawer").classList.remove("open");
+      document.getElementById("drawer").setAttribute("aria-hidden", "true");
+      document.getElementById("drawerBackdrop").classList.remove("open");
+
+      if (!machine) {
+        renderEmptyDashboard("No machines found in data/catalog.json.");
+        return;
+      }
+      if (!state.date) {
+        renderEmptyDashboard("No dates listed for " + machine.label + " in data/catalog.json.");
+        return;
+      }
+
+      const url = resolveLogUrl(machine, state.date);
+      setStatus("loading", "Loading " + machine.label + " · " + state.date + " …");
+
+      try {
+        const res = await fetch(url);
+        if (token !== state.loadToken) return;
+        if (!res.ok) {
+          renderEmptyDashboard("Could not load " + url + " (HTTP " + res.status + "). Check the file exists and the catalog date.");
+          return;
+        }
+        const text = await res.text();
+        if (token !== state.loadToken) return;
+        const records = parseLogText(text);
+        state.records = records;
+        const kpis = computeKpis(records);
+        renderKpis(kpis);
+        renderChart(hourlyBuckets(records));
+        renderHistChart(histogramBuckets(records));
+        updateHourPill();
+        renderGrid();
+        if (!records.length) {
+          setStatus("error", "Loaded " + url + " but found no usable test rows.");
+        } else {
+          setStatus(null, "");
+        }
+      } catch (err) {
+        if (token !== state.loadToken) return;
+        const hint = window.location.protocol === "file:"
+          ? " Open this demo over HTTP (for example Live Server or npx serve), not as a local file."
+          : "";
+        renderEmptyDashboard("Failed to load " + url + "." + hint + " " + (err && err.message ? err.message : ""));
+      }
+    }
+
+    async function init() {
+      setStatus("loading", "Loading machine catalog…");
+      try {
+        const res = await fetch("data/catalog.json");
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        const catalog = await res.json();
+        if (!catalog || !Array.isArray(catalog.machines) || !catalog.machines.length) {
+          throw new Error("catalog.json has no machines");
+        }
+        state.catalog = catalog;
+        const params = new URLSearchParams(window.location.search);
+        const qDate = params.get("date");
+        if (qDate) state.date = qDate;
+        populateMachineSelect();
+        populateDateSelect();
+        await refreshDay();
+      } catch (err) {
+        const hint = window.location.protocol === "file:"
+          ? " Open this demo over HTTP (for example Live Server or npx serve), not as a local file."
+          : "";
+        renderEmptyDashboard("Could not load data/catalog.json." + hint + " " + (err && err.message ? err.message : ""));
+      }
+    }
+
+    document.getElementById("machineSelect").addEventListener("change", (e) => {
+      state.machineId = e.target.value;
+      state.date = null;
+      populateDateSelect();
+      refreshDay();
+    });
+
+    document.getElementById("dateSelect").addEventListener("change", (e) => {
+      state.date = e.target.value;
+      syncAllMachinesLink();
+      refreshDay();
+    });
+
+    document.getElementById("resultFilter").addEventListener("change", (e) => {
+      state.result = e.target.value;
+      renderGrid();
+    });
+
+    document.getElementById("clearHourBtn").addEventListener("click", () => {
+      state.hour = null;
+      updateHourPill();
+      renderGrid();
+    });
+
+    document.getElementById("testsBody").addEventListener("click", (e) => {
+      const tr = e.target.closest("tr[data-cycle]");
+      if (!tr) return;
+      const id = Number(tr.getAttribute("data-cycle"));
+      const rec = state.records.find((r) => r.cycleId === id);
+      if (rec) openDrawer(rec);
+    });
+
+    document.getElementById("drawerClose").addEventListener("click", closeDrawer);
+    document.getElementById("drawerBackdrop").addEventListener("click", closeDrawer);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeDrawer();
+    });
+
+    init();
+  </script>
+</body>
+</html>

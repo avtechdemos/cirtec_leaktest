@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>Clearlink Leak Tests — All Machines</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a222c;
+      --surface-2: #232d3a;
+      --ink: #e8ecef;
+      --muted: #9aa7b5;
+      --line: #2e3a48;
+      --pass: #3ecf8e;
+      --fail: #f87171;
+      --abort: #f5d76e;
+      --unstable: #fb923c;
+      --accent: #8ec8e8;
+      --fail-soft: #3f1d1d;
+      --hover: #243040;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.45;
+    }
+
+    .page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.25rem 1.25rem 3rem;
+    }
+
+    header.dash-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 1.15rem;
+    }
+
+    header.dash-head h1 {
+      margin: 0;
+      font-size: clamp(1.3rem, 2.5vw, 1.75rem);
+      letter-spacing: -0.02em;
+      color: var(--accent);
+    }
+
+    header.dash-head .sub {
+      margin: 0.25rem 0 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1rem;
+      align-items: flex-end;
+    }
+
+    .control label {
+      display: block;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .control select {
+      min-width: 10rem;
+      padding: 0.45rem 0.6rem;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--ink);
+      font-size: 0.95rem;
+    }
+
+    .control select option {
+      background: var(--surface);
+      color: var(--ink);
+    }
+
+    a.btn-nav {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      min-height: 2.15rem;
+      padding: 0.45rem 0.85rem;
+      border: 1px solid var(--line);
+      background: var(--surface-2);
+      color: var(--ink);
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    a.btn-nav:hover {
+      background: var(--hover);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .status-banner {
+      margin: 0 0 1rem;
+      padding: 0.65rem 0.85rem;
+      border: 1px solid var(--line);
+      background: var(--surface-2);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .status-banner.error {
+      border-color: var(--fail);
+      background: var(--fail-soft);
+      color: var(--fail);
+    }
+
+    .status-banner.loading {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .status-banner.hidden { display: none; }
+
+    .page.loading-data .chart-wrap {
+      opacity: 0.45;
+      pointer-events: none;
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      margin-bottom: 1.15rem;
+    }
+
+    .panel-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .panel-head h2 {
+      margin: 0;
+      font-size: 1.05rem;
+      color: var(--accent);
+    }
+
+    .panel-note {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .panel-note.warn {
+      color: var(--abort);
+    }
+
+    .panel-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem 1.1rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.7rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .panel-stats .stat {
+      min-width: 4.5rem;
+    }
+
+    .panel-stats .stat .label {
+      display: block;
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 0.1rem;
+    }
+
+    .panel-stats .stat .value {
+      font-size: 1.05rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .panel-stats .stat.pass .value { color: var(--pass); }
+    .panel-stats .stat.abort .value { color: var(--abort); }
+    .panel-stats .stat.unstable .value { color: var(--unstable); }
+    .panel-stats .stat.fail .value { color: var(--fail); }
+
+    .panel-body { padding: 0.85rem 1rem 1rem; }
+
+    .chart-wrap {
+      position: relative;
+      height: 240px;
+    }
+
+    .legend-inline {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.5rem;
+    }
+
+    .legend-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin-right: 0.3rem;
+      vertical-align: middle;
+    }
+
+    @media (max-width: 700px) {
+      .page { padding: 1rem 0.75rem 2.5rem; }
+      .chart-wrap { height: 200px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="dash-head">
+      <div>
+        <h1>Clearlink Leak Tests — All Machines</h1>
+        <p class="sub">Hourly results for every machine on one date</p>
+      </div>
+      <div class="controls">
+        <div class="control">
+          <label for="dateSelect">Date</label>
+          <select id="dateSelect"></select>
+        </div>
+        <div class="control">
+          <label for="mainLink">&nbsp;</label>
+          <a id="mainLink" class="btn-nav" href="index.html">Main</a>
+        </div>
+        <div class="control">
+          <label for="helpLink">&nbsp;</label>
+          <a id="helpLink" class="btn-nav" href="help.html" target="_blank" rel="noopener noreferrer">Help</a>
+        </div>
+      </div>
+    </header>
+
+    <div id="statusBanner" class="status-banner hidden" role="status" aria-live="polite"></div>
+
+    <div id="machinePanels"></div>
+  </div>
+
+  <script>
+    const state = {
+      catalog: null,
+      date: null,
+      dates: [],
+      charts: {},
+      loadToken: 0
+    };
+
+    function classify(rec) {
+      if (rec.result === "Pass") return "pass";
+      if (rec.result === "Abort") return "abort";
+      if (rec.result === "Fail" && rec.failReason === "Gross") return "unstable";
+      if (rec.result === "Fail") return "fail";
+      return "other";
+    }
+
+    function isoToYyyymmdd(iso) {
+      return String(iso || "").replace(/-/g, "");
+    }
+
+    function resolveLogUrl(machine, isoDate) {
+      const ymd = isoToYyyymmdd(isoDate);
+      const fileName = machine.filePattern.replace("{YYYYMMDD}", ymd);
+      return "data/" + machine.folder + "/" + fileName;
+    }
+
+    function parseNumber(raw) {
+      const s = String(raw ?? "").trim();
+      if (!s) return null;
+      const n = Number(s);
+      return Number.isFinite(n) ? n : null;
+    }
+
+    function parseHour(timeStr) {
+      const m = String(timeStr || "").match(/^(\d{1,2}):/);
+      if (!m) return null;
+      const h = Number(m[1]);
+      return h >= 0 && h <= 23 ? h : null;
+    }
+
+    function parseLogText(text) {
+      const records = [];
+      const lines = String(text || "").split(/\r?\n/);
+      for (const line of lines) {
+        const raw = line.trimEnd();
+        if (!raw.trim()) continue;
+        const parts = raw.split(",").map((p) => p.trim());
+        if (parts.length < 13) continue;
+
+        const cycleId = parseNumber(parts[0]);
+        if (cycleId == null) continue;
+
+        records.push({
+          cycleId,
+          hour: parseHour(parts[5]),
+          result: parts[12] || "",
+          failReason: parts[13] || ""
+        });
+      }
+      return records;
+    }
+
+    function hourlyBuckets(records) {
+      const hours = Array.from({ length: 24 }, (_, h) => ({
+        hour: h,
+        pass: 0,
+        fail: 0,
+        unstable: 0,
+        abort: 0
+      }));
+      for (const r of records) {
+        const h = r.hour;
+        if (h == null || h < 0 || h > 23) continue;
+        const c = classify(r);
+        if (c === "pass") hours[h].pass++;
+        else if (c === "fail") hours[h].fail++;
+        else if (c === "unstable") hours[h].unstable++;
+        else if (c === "abort") hours[h].abort++;
+      }
+      return hours;
+    }
+
+    function countStatuses(records) {
+      let pass = 0, abort = 0, unstable = 0, fail = 0;
+      for (const r of records) {
+        const c = classify(r);
+        if (c === "pass") pass++;
+        else if (c === "abort") abort++;
+        else if (c === "unstable") unstable++;
+        else if (c === "fail") fail++;
+      }
+      return {
+        total: records.length,
+        pass,
+        abort,
+        unstable,
+        fail
+      };
+    }
+
+    function renderMachineStats(machineId, records, warn) {
+      const el = document.getElementById("stats-" + machineId);
+      if (!el) return;
+      if (warn || !records.length) {
+        el.innerHTML = `
+          <div class="stat"><span class="label">Total tests</span><span class="value">0</span></div>
+          <div class="stat pass"><span class="label">Pass</span><span class="value">0</span></div>
+          <div class="stat abort"><span class="label">Aborts</span><span class="value">0</span></div>
+          <div class="stat unstable"><span class="label">Unstables</span><span class="value">0</span></div>
+          <div class="stat fail"><span class="label">Fails</span><span class="value">0</span></div>
+        `;
+        return;
+      }
+      const c = countStatuses(records);
+      el.innerHTML = `
+        <div class="stat"><span class="label">Total tests</span><span class="value">${c.total.toLocaleString()}</span></div>
+        <div class="stat pass"><span class="label">Pass</span><span class="value">${c.pass.toLocaleString()}</span></div>
+        <div class="stat abort"><span class="label">Aborts</span><span class="value">${c.abort.toLocaleString()}</span></div>
+        <div class="stat unstable"><span class="label">Unstables</span><span class="value">${c.unstable.toLocaleString()}</span></div>
+        <div class="stat fail"><span class="label">Fails</span><span class="value">${c.fail.toLocaleString()}</span></div>
+      `;
+    }
+
+    function setStatus(kind, message) {
+      const el = document.getElementById("statusBanner");
+      const page = document.querySelector(".page");
+      if (!message) {
+        el.className = "status-banner hidden";
+        el.textContent = "";
+        page.classList.remove("loading-data");
+        return;
+      }
+      el.textContent = message;
+      el.className = "status-banner " + (kind || "");
+      if (kind === "loading") page.classList.add("loading-data");
+      else page.classList.remove("loading-data");
+    }
+
+    function queryDate() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get("date");
+    }
+
+    function syncUrlDate(isoDate) {
+      const url = new URL(window.location.href);
+      if (isoDate) url.searchParams.set("date", isoDate);
+      else url.searchParams.delete("date");
+      history.replaceState(null, "", url.pathname + url.search);
+    }
+
+    function unionDates(catalog) {
+      const set = new Set();
+      for (const m of catalog.machines) {
+        for (const d of m.dates || []) set.add(d);
+      }
+      return [...set].sort().reverse();
+    }
+
+    function populateDateSelect() {
+      const sel = document.getElementById("dateSelect");
+      sel.innerHTML = state.dates.map((d) => `<option value="${d}">${d}</option>`).join("");
+      if (!state.dates.length) {
+        state.date = null;
+        return;
+      }
+      if (!state.date || !state.dates.includes(state.date)) {
+        state.date = state.dates[0];
+      }
+      sel.value = state.date;
+    }
+
+    function buildPanels() {
+      const host = document.getElementById("machinePanels");
+      host.innerHTML = state.catalog.machines.map((m) => `
+        <section class="panel" id="panel-${m.id}" aria-labelledby="title-${m.id}">
+          <div class="panel-head">
+            <h2 id="title-${m.id}">${m.label} · ${m.serial}</h2>
+            <span class="panel-note" id="note-${m.id}"></span>
+          </div>
+          <div class="panel-body">
+            <div class="panel-stats" id="stats-${m.id}"></div>
+            <div class="chart-wrap">
+              <canvas id="chart-${m.id}"></canvas>
+            </div>
+            <div class="legend-inline">
+              <span><span class="legend-dot" style="background:#3ecf8e"></span>Pass</span>
+              <span><span class="legend-dot" style="background:#f87171"></span>Fail</span>
+              <span><span class="legend-dot" style="background:#fb923c"></span>Unstable</span>
+              <span><span class="legend-dot" style="background:#f5d76e"></span>Abort</span>
+            </div>
+          </div>
+        </section>
+      `).join("");
+    }
+
+    function renderMachineChart(machineId, buckets) {
+      const labels = buckets.map((b) => String(b.hour).padStart(2, "0"));
+      const tick = "#9aa7b5";
+      const grid = "#2e3a48";
+      const datasets = [
+        { label: "Pass", data: buckets.map((b) => b.pass), backgroundColor: "#3ecf8e", stack: "s" },
+        { label: "Fail", data: buckets.map((b) => b.fail), backgroundColor: "#f87171", stack: "s" },
+        { label: "Unstable", data: buckets.map((b) => b.unstable), backgroundColor: "#fb923c", stack: "s" },
+        { label: "Abort", data: buckets.map((b) => b.abort), backgroundColor: "#f5d76e", stack: "s" }
+      ];
+
+      const ctx = document.getElementById("chart-" + machineId);
+      if (state.charts[machineId]) {
+        state.charts[machineId].destroy();
+        state.charts[machineId] = null;
+      }
+
+      state.charts[machineId] = new Chart(ctx, {
+        type: "bar",
+        data: { labels, datasets },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: "index", intersect: true },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: "#1a222c",
+              titleColor: "#e8ecef",
+              bodyColor: "#e8ecef",
+              borderColor: "#2e3a48",
+              borderWidth: 1,
+              callbacks: {
+                title: (items) => "Hour " + items[0].label + ":00"
+              }
+            }
+          },
+          scales: {
+            x: {
+              stacked: true,
+              title: { display: true, text: "Hour of day", color: tick },
+              ticks: { color: tick },
+              grid: { display: false },
+              border: { color: grid }
+            },
+            y: {
+              stacked: true,
+              beginAtZero: true,
+              ticks: { precision: 0, color: tick },
+              title: { display: true, text: "Tests", color: tick },
+              grid: { color: grid },
+              border: { color: grid }
+            }
+          }
+        }
+      });
+    }
+
+    async function loadMachineDay(machine, isoDate) {
+      const url = resolveLogUrl(machine, isoDate);
+      try {
+        const res = await fetch(url);
+        if (!res.ok) {
+          return { machine, records: [], note: "No data for this date", warn: true };
+        }
+        const text = await res.text();
+        const records = parseLogText(text);
+        if (!records.length) {
+          return { machine, records: [], note: "No data for this date", warn: true };
+        }
+        const total = records.length;
+        return {
+          machine,
+          records,
+          note: total.toLocaleString() + " tests",
+          warn: false
+        };
+      } catch (err) {
+        return {
+          machine,
+          records: [],
+          note: "Could not load log",
+          warn: true
+        };
+      }
+    }
+
+    async function refreshDay() {
+      const token = ++state.loadToken;
+      if (!state.catalog || !state.date) {
+        setStatus("error", "No date available in the catalog.");
+        return;
+      }
+
+      syncUrlDate(state.date);
+      document.getElementById("mainLink").href = "index.html?date=" + encodeURIComponent(state.date);
+      setStatus("loading", "Loading all machines for " + state.date + " …");
+
+      const results = await Promise.all(
+        state.catalog.machines.map((m) => loadMachineDay(m, state.date))
+      );
+      if (token !== state.loadToken) return;
+
+      for (const result of results) {
+        const noteEl = document.getElementById("note-" + result.machine.id);
+        noteEl.textContent = result.warn ? result.note : "";
+        noteEl.className = "panel-note" + (result.warn ? " warn" : "");
+        renderMachineStats(result.machine.id, result.records, result.warn);
+        renderMachineChart(result.machine.id, hourlyBuckets(result.records));
+      }
+
+      setStatus(null, "");
+    }
+
+    async function init() {
+      setStatus("loading", "Loading machine catalog…");
+      try {
+        const res = await fetch("data/catalog.json");
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        const catalog = await res.json();
+        if (!catalog || !Array.isArray(catalog.machines) || !catalog.machines.length) {
+          throw new Error("catalog.json has no machines");
+        }
+        state.catalog = catalog;
+        state.dates = unionDates(catalog);
+        state.date = queryDate();
+        populateDateSelect();
+        buildPanels();
+        await refreshDay();
+      } catch (err) {
+        const hint = window.location.protocol === "file:"
+          ? " Open this demo over HTTP (for example Live Server or npx serve), not as a local file."
+          : "";
+        setStatus("error", "Could not load data/catalog.json." + hint + " " + (err && err.message ? err.message : ""));
+      }
+    }
+
+    document.getElementById("dateSelect").addEventListener("change", (e) => {
+      state.date = e.target.value;
+      refreshDay();
+    });
+
+    init();
+  </script>
+</body>
+</html>
