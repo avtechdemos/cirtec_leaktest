@@ -369,6 +369,7 @@
       if (warn || !records.length) {
         el.innerHTML = `
           <div class="stat"><span class="label">Total tests</span><span class="value">0</span></div>
+          <div class="stat"><span class="label">Avg tests/hour</span><span class="value">0.0</span></div>
           <div class="stat pass"><span class="label">Pass</span><span class="value">0</span></div>
           <div class="stat abort"><span class="label">Aborts</span><span class="value">0</span></div>
           <div class="stat unstable"><span class="label">Unstables</span><span class="value">0</span></div>
@@ -377,8 +378,10 @@
         return;
       }
       const c = countStatuses(records);
+      const avgPerHour = (c.total / 24).toFixed(1);
       el.innerHTML = `
         <div class="stat"><span class="label">Total tests</span><span class="value">${c.total.toLocaleString()}</span></div>
+        <div class="stat"><span class="label">Avg tests/hour</span><span class="value">${avgPerHour}</span></div>
         <div class="stat pass"><span class="label">Pass</span><span class="value">${c.pass.toLocaleString()}</span></div>
         <div class="stat abort"><span class="label">Aborts</span><span class="value">${c.abort.toLocaleString()}</span></div>
         <div class="stat unstable"><span class="label">Unstables</span><span class="value">${c.unstable.toLocaleString()}</span></div>
