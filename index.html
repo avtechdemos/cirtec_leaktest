@@ -855,6 +855,13 @@
       };
     }
 
+    function formatHourLabel(h) {
+      if (h === 0) return "12am";
+      if (h === 12) return "12pm";
+      if (h < 12) return h + "am";
+      return (h - 12) + "pm";
+    }
+
     function hourlyBuckets(records) {
       const hours = Array.from({ length: 24 }, (_, h) => ({
         hour: h,
@@ -905,7 +912,7 @@
     }
 
     function renderChart(buckets) {
-      const labels = buckets.map((b) => String(b.hour).padStart(2, "0"));
+      const labels = buckets.map((b) => formatHourLabel(b.hour));
       const tick = "#9aa7b5";
       const grid = "#2e3a48";
       const datasets = [
@@ -1152,8 +1159,7 @@
         pill.classList.add("hidden");
       } else {
         pill.classList.remove("hidden");
-        const h = String(state.hour).padStart(2, "0");
-        document.getElementById("hourPillValue").textContent = h + ":00–" + h + ":59";
+        document.getElementById("hourPillValue").textContent = formatHourLabel(state.hour);
       }
     }
 
